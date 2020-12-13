@@ -20,6 +20,8 @@
 		09EBCB1325861627008C2AEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09EBCB1625861627008C2AEC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		09EBCB1825861627008C2AEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09EBCB222586184F008C2AEC /* 1_TheProblemWithPrimitives.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_TheProblemWithPrimitives.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		09EBCB2425862178008C2AEC /* 2_ModellingFiniteData.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2_ModellingFiniteData.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		09EBCB0E25861623008C2AEC /* SwiftForBeginners */ = {
 			isa = PBXGroup;
 			children = (
+				09EBCB1F25861649008C2AEC /* Playgrounds */,
 				09EBCB0F25861623008C2AEC /* SwiftForBeginnersApp.swift */,
 				09EBCB1125861623008C2AEC /* ContentView.swift */,
 				09EBCB1325861627008C2AEC /* Assets.xcassets */,
@@ -67,6 +70,31 @@
 				09EBCB1625861627008C2AEC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		09EBCB1F25861649008C2AEC /* Playgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				09EBCB20258617B7008C2AEC /* COURSE_6_EnumerationsAndOptionalsInSwift */,
+			);
+			path = Playgrounds;
+			sourceTree = "<group>";
+		};
+		09EBCB20258617B7008C2AEC /* COURSE_6_EnumerationsAndOptionalsInSwift */ = {
+			isa = PBXGroup;
+			children = (
+				09EBCB2125861811008C2AEC /* CHAPTER_1_IntroductionToEnumerations */,
+			);
+			path = COURSE_6_EnumerationsAndOptionalsInSwift;
+			sourceTree = "<group>";
+		};
+		09EBCB2125861811008C2AEC /* CHAPTER_1_IntroductionToEnumerations */ = {
+			isa = PBXGroup;
+			children = (
+				09EBCB222586184F008C2AEC /* 1_TheProblemWithPrimitives.playground */,
+				09EBCB2425862178008C2AEC /* 2_ModellingFiniteData.playground */,
+			);
+			path = CHAPTER_1_IntroductionToEnumerations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
