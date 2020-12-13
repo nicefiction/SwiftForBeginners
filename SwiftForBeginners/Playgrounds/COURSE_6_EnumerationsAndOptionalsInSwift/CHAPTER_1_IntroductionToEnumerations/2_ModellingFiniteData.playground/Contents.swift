@@ -1,7 +1,7 @@
 import Foundation
 
 /**
- `MODELLING FINITE DATA`
+ `2. MODELLING FINITE DATA`
  INTRO — Now that we know the issues with using strings ,
  let’s rewrite our functions using enumerations .
  In this video , we’ll take a look at the basic syntax of an enum as well as the concepts behind it .

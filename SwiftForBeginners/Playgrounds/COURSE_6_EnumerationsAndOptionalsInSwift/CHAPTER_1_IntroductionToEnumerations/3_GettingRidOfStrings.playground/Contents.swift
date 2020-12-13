@@ -1,7 +1,7 @@
 import Foundation
 
 /**
- `GETTING RID OF STRINGS`
+ `3. GETTING RID OF STRINGS`
  INTRO —  We got rid of some instances of strings in our function
  but there is still room for improvement . In this video ,
  we clean up both functions so there’s no room for error .
@@ -153,10 +153,13 @@ func dayTypeSG(for day: Day)
  we can simply get rid of all this and make it the default case :
  */
 
-func isNotificationMutedSG(for daytype: DayType)
-    -> Bool {
+func dayType(for day: Day)
+    -> DayTypeSG {
     
-    return daytype == .weekend ? true : false
+    switch day {
+    case .saturday,.sunday : return.weekend
+    default                : return.weekday
+    }
 }
 
 
