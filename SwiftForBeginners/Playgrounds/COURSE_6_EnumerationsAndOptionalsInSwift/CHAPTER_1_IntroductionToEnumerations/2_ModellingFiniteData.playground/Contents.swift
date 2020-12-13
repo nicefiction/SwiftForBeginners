@@ -10,7 +10,13 @@ import Foundation
 // Let's try and solve the same problem but get rid of those strings altogether and use an enum :
 
 enum Day {
-    case monday , tuesday , wednesday , thursday , friday , saturday , sunday
+    case monday
+    case tuesday
+    case wednesday
+    case thursday
+    case friday
+    case saturday
+    case sunday
 }
 
 /**
@@ -90,7 +96,8 @@ func dayType(for day: Day)
 /**
  And since the compiler knows it is an enum , we don't have to worry about it .
  The compiler keeps a close eye on what we are doing . For example ,
- if I remove this Day.friday case in the switch statement of the dayType( ) function , the compiler immediately knows that all paths aren't considered ,
+ if I remove this Day.friday case in the switch statement of the dayType( ) function ,
+ the compiler immediately knows that all paths aren't considered ,
  and complains that the switch statement must be exhaustive .
  I can either ( A ) add back the Friday case or ( B ) add a default case to fix this .
  */

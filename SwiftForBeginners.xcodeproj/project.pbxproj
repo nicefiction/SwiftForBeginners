@@ -22,6 +22,7 @@
 		09EBCB1825861627008C2AEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09EBCB222586184F008C2AEC /* 1_TheProblemWithPrimitives.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_TheProblemWithPrimitives.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09EBCB2425862178008C2AEC /* 2_ModellingFiniteData.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2_ModellingFiniteData.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		09EBCB26258626C2008C2AEC /* 3_GettingRidOfStrings.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 3_GettingRidOfStrings.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +94,7 @@
 			children = (
 				09EBCB222586184F008C2AEC /* 1_TheProblemWithPrimitives.playground */,
 				09EBCB2425862178008C2AEC /* 2_ModellingFiniteData.playground */,
+				09EBCB26258626C2008C2AEC /* 3_GettingRidOfStrings.playground */,
 			);
 			path = CHAPTER_1_IntroductionToEnumerations;
 			sourceTree = "<group>";
