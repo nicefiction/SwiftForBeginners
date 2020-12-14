@@ -82,3 +82,14 @@ print(dorothy.fullName())
  return firstName + " " + middleName! + " " + lastName
  but there is a reason for that .
  */
+/**
+ `NOTE` [ source: from Treehouse task ] : var someValue: Int? = nil
+ You will have to explicitly declare the type as an optional Int otherwise the compiler cannot infer it.
+ */
+/**
+ Now that you know how absolutely not to do things ,
+ let's look at the right way . 
+ Most of you will think the right way involves writing more code ,
+ but that is okay .
+ The job of a programmer isn't to write fast code with as few words as possible , it is to write safe code .
+ */
