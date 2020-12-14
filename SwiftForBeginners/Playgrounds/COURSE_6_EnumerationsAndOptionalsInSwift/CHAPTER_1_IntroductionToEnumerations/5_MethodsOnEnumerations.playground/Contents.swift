@@ -234,10 +234,10 @@ enum ColorComponent3 {
 //                                              green : green/255.0 ,
 //                                              blue : blue/255.0 ,
 //                                              alpha : alpha)
-        case .rgb(red : let red ,
+        case .rgb(red : let _red ,
                   green : let green ,
                   blue : let blue ,
-                  alpha : let alpha) : return UIColor(red : red/255.0 ,
+                  alpha : let alpha) : return UIColor(red : _red/255.0 ,
                                                       green : green/255.0 ,
                                                       blue : blue/255.0 ,
                                                       alpha : alpha)

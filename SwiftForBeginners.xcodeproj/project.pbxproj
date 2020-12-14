@@ -16,6 +16,7 @@
 /* Begin PBXFileReference section */
 		098A83E225864390005CA46F /* 4_AssociatedEnums.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 4_AssociatedEnums.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		098A83E5258646DF005CA46F /* 5_MethodsOnEnumerations.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 5_MethodsOnEnumerations.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		098A83ED258652C3005CA46F /* 1_TheAbsenceOfData.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_TheAbsenceOfData.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09EBCB0C25861623008C2AEC /* SwiftForBeginners.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftForBeginners.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09EBCB0F25861623008C2AEC /* SwiftForBeginnersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftForBeginnersApp.swift; sourceTree = "<group>"; };
 		09EBCB1125861623008C2AEC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -38,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		098A83EC25865284005CA46F /* CHAPTER_2_IntroductionToOptionals */ = {
+			isa = PBXGroup;
+			children = (
+				098A83ED258652C3005CA46F /* 1_TheAbsenceOfData.playground */,
+			);
+			path = CHAPTER_2_IntroductionToOptionals;
+			sourceTree = "<group>";
+		};
 		09EBCB0325861622008C2AEC = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +95,7 @@
 		09EBCB20258617B7008C2AEC /* COURSE_6_EnumerationsAndOptionalsInSwift */ = {
 			isa = PBXGroup;
 			children = (
+				098A83EC25865284005CA46F /* CHAPTER_2_IntroductionToOptionals */,
 				09EBCB2125861811008C2AEC /* CHAPTER_1_IntroductionToEnumerations */,
 			);
 			path = COURSE_6_EnumerationsAndOptionalsInSwift;
