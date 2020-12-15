@@ -19,6 +19,7 @@
 		098A83ED258652C3005CA46F /* 1_TheAbsenceOfData.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_TheAbsenceOfData.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		098A83EF2587FDB0005CA46F /* 2_WorkingWithOptionalTypes.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2_WorkingWithOptionalTypes.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09B8864225880515009C81D0 /* 3_OptionalBinding.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 3_OptionalBinding.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		09B886442588AB01009C81D0 /* 4_DownsidesToUsingIfLet.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 4_DownsidesToUsingIfLet.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09EBCB0C25861623008C2AEC /* SwiftForBeginners.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftForBeginners.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09EBCB0F25861623008C2AEC /* SwiftForBeginnersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftForBeginnersApp.swift; sourceTree = "<group>"; };
 		09EBCB1125861623008C2AEC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -47,6 +48,7 @@
 				098A83ED258652C3005CA46F /* 1_TheAbsenceOfData.playground */,
 				098A83EF2587FDB0005CA46F /* 2_WorkingWithOptionalTypes.playground */,
 				09B8864225880515009C81D0 /* 3_OptionalBinding.playground */,
+				09B886442588AB01009C81D0 /* 4_DownsidesToUsingIfLet.playground */,
 			);
 			path = CHAPTER_2_IntroductionToOptionals;
 			sourceTree = "<group>";
