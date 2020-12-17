@@ -2,7 +2,7 @@ import Foundation
 
 /**
  `3 Optional Binding`
- INTRO —Using force unwrapping clearly won’t work because it leads to very dangerous code .
+ INTRO — Using force unwrapping clearly won’t work because it leads to very dangerous code .
  In this video, we take a look at our first safe alternative - optional binding using if let syntax .
  */
 /**

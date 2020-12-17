@@ -2,7 +2,7 @@ import UIKit
 
 /**
  `5 Methods on Enumerations`
- INTRO —Enums are sort of like other objects in Swift .
+ INTRO — Enums are sort of like other objects in Swift .
  Like classes and structs
  we can add instance methods to an enum
  but unlike classes and structs ,

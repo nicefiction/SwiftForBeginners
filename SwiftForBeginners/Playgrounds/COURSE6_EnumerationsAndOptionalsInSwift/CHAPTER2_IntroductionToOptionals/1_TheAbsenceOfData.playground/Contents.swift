@@ -17,7 +17,7 @@ import Foundation
 
 /**
  `1 The Absence of Data`
- INTRO —In many languages ,
+ INTRO — In many languages ,
  when you encounter the absence of data ,
  you have to deal with it by writing another path for your code .
  There is no indication that the data doesn’t exist

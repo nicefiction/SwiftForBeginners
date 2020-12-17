@@ -2,7 +2,7 @@ import Foundation
 
 /**
  `4 Downsides to Using If Let`
- INTRO —While if let binding lets us unwrap our code safely ,
+ INTRO — While if let binding lets us unwrap our code safely ,
  it is not always the best choice
  and can lead to many levels of nesting in our code .
  This isn’t very intuitive so let’s spend some time looking at the issues .

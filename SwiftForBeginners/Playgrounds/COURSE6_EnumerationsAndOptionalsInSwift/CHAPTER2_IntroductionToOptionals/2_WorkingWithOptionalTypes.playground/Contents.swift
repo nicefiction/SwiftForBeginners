@@ -2,7 +2,7 @@ import Foundation
 
 /**
  `2 Working with Optional Types`
- INTRO —Now that we conceptually know what an optional is ,
+ INTRO — Now that we conceptually know what an optional is ,
  we look at why it even exists to begin with
  and the kinds of benefits we offer .
  We also take a look at the wrong way to work with optional values .

@@ -15,6 +15,7 @@
 
 /* Begin PBXFileReference section */
 		095CE151258AA98000F9DC22 /* 5_EarlyExitsUsingGuard.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 5_EarlyExitsUsingGuard.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		095CE15B258BD6FD00F9DC22 /* 1_EnumerationsWithRawValues.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_EnumerationsWithRawValues.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		098A83E225864390005CA46F /* 4_AssociatedEnums.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 4_AssociatedEnums.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		098A83E5258646DF005CA46F /* 5_MethodsOnEnumerations.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 5_MethodsOnEnumerations.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		098A83ED258652C3005CA46F /* 1_TheAbsenceOfData.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_TheAbsenceOfData.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -43,7 +44,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		098A83EC25865284005CA46F /* CHAPTER_2_IntroductionToOptionals */ = {
+		095CE157258BD66200F9DC22 /* CHAPTER3_ObjectsAndOptionals */ = {
+			isa = PBXGroup;
+			children = (
+				095CE15B258BD6FD00F9DC22 /* 1_EnumerationsWithRawValues.playground */,
+			);
+			path = CHAPTER3_ObjectsAndOptionals;
+			sourceTree = "<group>";
+		};
+		098A83EC25865284005CA46F /* CHAPTER2_IntroductionToOptionals */ = {
 			isa = PBXGroup;
 			children = (
 				098A83ED258652C3005CA46F /* 1_TheAbsenceOfData.playground */,
@@ -52,7 +61,7 @@
 				09B886442588AB01009C81D0 /* 4_DownsidesToUsingIfLet.playground */,
 				095CE151258AA98000F9DC22 /* 5_EarlyExitsUsingGuard.playground */,
 			);
-			path = CHAPTER_2_IntroductionToOptionals;
+			path = CHAPTER2_IntroductionToOptionals;
 			sourceTree = "<group>";
 		};
 		09EBCB0325861622008C2AEC = {
@@ -95,21 +104,22 @@
 		09EBCB1F25861649008C2AEC /* Playgrounds */ = {
 			isa = PBXGroup;
 			children = (
-				09EBCB20258617B7008C2AEC /* COURSE_6_EnumerationsAndOptionalsInSwift */,
+				09EBCB20258617B7008C2AEC /* COURSE6_EnumerationsAndOptionalsInSwift */,
 			);
 			path = Playgrounds;
 			sourceTree = "<group>";
 		};
-		09EBCB20258617B7008C2AEC /* COURSE_6_EnumerationsAndOptionalsInSwift */ = {
+		09EBCB20258617B7008C2AEC /* COURSE6_EnumerationsAndOptionalsInSwift */ = {
 			isa = PBXGroup;
 			children = (
-				098A83EC25865284005CA46F /* CHAPTER_2_IntroductionToOptionals */,
-				09EBCB2125861811008C2AEC /* CHAPTER_1_IntroductionToEnumerations */,
+				095CE157258BD66200F9DC22 /* CHAPTER3_ObjectsAndOptionals */,
+				098A83EC25865284005CA46F /* CHAPTER2_IntroductionToOptionals */,
+				09EBCB2125861811008C2AEC /* CHAPTER1_IntroductionToEnumerations */,
 			);
-			path = COURSE_6_EnumerationsAndOptionalsInSwift;
+			path = COURSE6_EnumerationsAndOptionalsInSwift;
 			sourceTree = "<group>";
 		};
-		09EBCB2125861811008C2AEC /* CHAPTER_1_IntroductionToEnumerations */ = {
+		09EBCB2125861811008C2AEC /* CHAPTER1_IntroductionToEnumerations */ = {
 			isa = PBXGroup;
 			children = (
 				09EBCB222586184F008C2AEC /* 1_TheProblemWithPrimitives.playground */,
@@ -118,7 +128,7 @@
 				098A83E225864390005CA46F /* 4_AssociatedEnums.playground */,
 				098A83E5258646DF005CA46F /* 5_MethodsOnEnumerations.playground */,
 			);
-			path = CHAPTER_1_IntroductionToEnumerations;
+			path = CHAPTER1_IntroductionToEnumerations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

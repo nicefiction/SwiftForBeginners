@@ -2,7 +2,7 @@ import Foundation
 
 /**
  `5 Early Exits Using Guard`
- INTRO —An early exit is a control flow concept where rather than checking for success cases first
+ INTRO — An early exit is a control flow concept where rather than checking for success cases first
  and worrying about errors last ,
  you deal with the error case up front
  and exit the current scope .
@@ -255,9 +255,9 @@ struct Book {
             let _author = dict["author"]
         else { return nil }
 
-        self.title = _title
-        self.author = _author
-        self.price = dict["price"]
+        self.title   = _title
+        self.author  = _author
+        self.price   = dict["price"]
         self.pubDate = dict["pubDate"]
     }
 }
@@ -274,9 +274,10 @@ struct Book2 {
         if
             let _title = dict["title"] ,
             let _author = dict["author"] {
-            self.title = _title
-            self.author = _author
-            self.price = dict["price"]
+            
+            self.title   = _title
+            self.author  = _author
+            self.price   = dict["price"]
             self.pubDate = dict["pubDate"]
         } else {
             return nil
