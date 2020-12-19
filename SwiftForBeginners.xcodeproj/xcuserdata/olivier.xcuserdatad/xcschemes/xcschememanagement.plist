@@ -599,6 +599,27 @@
 			<key>orderHint</key>
 			<integer>11</integer>
 		</dict>
+		<key>5_NilCoalescingOperator (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>22</integer>
+		</dict>
+		<key>5_NilCoalescingOperator (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>23</integer>
+		</dict>
+		<key>5_NilCoalescingOperator (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>21</integer>
+		</dict>
 		<key>GettingRidOfStrings (Playground) 1.xcscheme</key>
 		<dict>
 			<key>isShown</key>
