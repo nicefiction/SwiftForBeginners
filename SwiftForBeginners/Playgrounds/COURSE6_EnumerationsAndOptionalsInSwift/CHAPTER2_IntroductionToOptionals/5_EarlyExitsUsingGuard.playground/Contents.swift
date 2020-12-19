@@ -249,6 +249,23 @@ struct Book {
     var pubDate: String?
     
     
+    init?(title: String ,
+          author: String ,
+          price: String? ,
+          pubDate: String?) {
+        
+        guard
+            let _price = price ,
+            let _pubDate = pubDate
+        else { return nil }
+        
+        self.title   = title
+        self.author  = author
+        self.price   = _price
+        self.pubDate = _pubDate
+    }
+    
+    
     init?(dict: [String : String]) {
         guard
             let _title = dict["title"] ,
@@ -284,3 +301,12 @@ struct Book2 {
         }
     }
 }
+
+
+let book = Book(title : "The Emerald City of Oz" ,
+                author : "L. Frank Baum" ,
+                price : "10" ,
+                pubDate : "1910")
+
+print("Book title : \(book?.title ?? "No Title")")
+print("Hello World")

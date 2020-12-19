@@ -10,6 +10,8 @@ import Foundation
  given an arbitrary value of the same type .
  That sounds vague , so let’s just check it out in code !
  */
+
+
 /**
  We have learned about initialisation before ,
  the way in which we create an object . Like structs and classes ,
@@ -26,8 +28,7 @@ import Foundation
  enums provide a great way to model this data .
  For this example , we will model a very limited subset
  so we can see the utility of initialising with a raw value :
- */
-/**
+
  `NOTE` : Don't worry about the underlying jargon here .
  We will learn all this when the time comes
  and make apps that connect to the web .
@@ -53,8 +54,7 @@ let statusCode = 200
  `NOTE` : In a real case scenario I have no idea what that value is
  because our app is making those network requests based on what the user does .
  And we have no control over what a user does .
- */
-/**
+
  So now , I want to convert the status code into an enum member ,
  because just like we discussed earlier ,
  having a type associated with our data ,
