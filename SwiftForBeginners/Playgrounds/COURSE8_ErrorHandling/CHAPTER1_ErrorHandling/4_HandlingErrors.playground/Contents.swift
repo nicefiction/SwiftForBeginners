@@ -231,7 +231,7 @@ do {
 
 /**
  `SWIFT Documentation` :
- Handling Errors Using Do-Catch
+ `Handling Errors Using Do-Catch`
  You use a do-catch statement
  to handle errors
  by running a block of code .

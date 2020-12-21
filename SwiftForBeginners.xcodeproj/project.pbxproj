@@ -17,6 +17,7 @@
 		090505E5258FEE6300DA6F8E /* 2_ModellingErrors.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2_ModellingErrors.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		090505E72590ABEA00DA6F8E /* 3_ThrowingErrors.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 3_ThrowingErrors.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		090505E92590F83400DA6F8E /* 4_HandlingErrors.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 4_HandlingErrors.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		090505EB259107A600DA6F8E /* 5_CleaningUpWithDefer.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 5_CleaningUpWithDefer.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		0934D677258D5A8A00302C9C /* 2_InitializingWithRawValues.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2_InitializingWithRawValues.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		0934D67B258E002300302C9C /* 3_OptionalChaining.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 3_OptionalChaining.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		0934D67D258E2CEE00302C9C /* 4_PatternMatchingWithEnums.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 4_PatternMatchingWithEnums.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -59,6 +60,7 @@
 				090505E5258FEE6300DA6F8E /* 2_ModellingErrors.playground */,
 				090505E72590ABEA00DA6F8E /* 3_ThrowingErrors.playground */,
 				090505E92590F83400DA6F8E /* 4_HandlingErrors.playground */,
+				090505EB259107A600DA6F8E /* 5_CleaningUpWithDefer.playground */,
 			);
 			path = CHAPTER1_ErrorHandling;
 			sourceTree = "<group>";
