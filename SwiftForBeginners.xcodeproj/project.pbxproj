@@ -31,6 +31,7 @@
 		098A83EF2587FDB0005CA46F /* 2_WorkingWithOptionalTypes.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2_WorkingWithOptionalTypes.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09B8864225880515009C81D0 /* 3_OptionalBinding.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 3_OptionalBinding.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09B886442588AB01009C81D0 /* 4_DownsidesToUsingIfLet.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 4_DownsidesToUsingIfLet.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		09CCE73E259CE067004FED69 /* 1_WhatIsAFunction.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_WhatIsAFunction.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09EBCB0C25861623008C2AEC /* SwiftForBeginners.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftForBeginners.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09EBCB0F25861623008C2AEC /* SwiftForBeginnersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftForBeginnersApp.swift; sourceTree = "<group>"; };
 		09EBCB1125861623008C2AEC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,6 +98,22 @@
 			path = CHAPTER2_IntroductionToOptionals;
 			sourceTree = "<group>";
 		};
+		09CCE73C259CDFF3004FED69 /* COURSE3_Functions */ = {
+			isa = PBXGroup;
+			children = (
+				09CCE73D259CE038004FED69 /* CHAPTER1_FunctionsInSwift */,
+			);
+			path = COURSE3_Functions;
+			sourceTree = "<group>";
+		};
+		09CCE73D259CE038004FED69 /* CHAPTER1_FunctionsInSwift */ = {
+			isa = PBXGroup;
+			children = (
+				09CCE73E259CE067004FED69 /* 1_WhatIsAFunction.playground */,
+			);
+			path = CHAPTER1_FunctionsInSwift;
+			sourceTree = "<group>";
+		};
 		09EBCB0325861622008C2AEC = {
 			isa = PBXGroup;
 			children = (
@@ -137,6 +154,7 @@
 		09EBCB1F25861649008C2AEC /* Playgrounds */ = {
 			isa = PBXGroup;
 			children = (
+				09CCE73C259CDFF3004FED69 /* COURSE3_Functions */,
 				09EBCB20258617B7008C2AEC /* COURSE6_EnumerationsAndOptionals */,
 				0934D681258F6B7A00302C9C /* COURSE8_ErrorHandling */,
 			);
@@ -146,9 +164,9 @@
 		09EBCB20258617B7008C2AEC /* COURSE6_EnumerationsAndOptionals */ = {
 			isa = PBXGroup;
 			children = (
-				095CE157258BD66200F9DC22 /* CHAPTER3_ObjectsAndOptionals */,
-				098A83EC25865284005CA46F /* CHAPTER2_IntroductionToOptionals */,
 				09EBCB2125861811008C2AEC /* CHAPTER1_IntroductionToEnumerations */,
+				098A83EC25865284005CA46F /* CHAPTER2_IntroductionToOptionals */,
+				095CE157258BD66200F9DC22 /* CHAPTER3_ObjectsAndOptionals */,
 			);
 			path = COURSE6_EnumerationsAndOptionals;
 			sourceTree = "<group>";
