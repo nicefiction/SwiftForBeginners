@@ -20,6 +20,7 @@ func arrayModifier(array: [Int]) {
     arrayOfInts.append(5)
     
     let secondArrayOfInts = arrayOfInts
+    print(secondArrayOfInts)
 }
 
 
