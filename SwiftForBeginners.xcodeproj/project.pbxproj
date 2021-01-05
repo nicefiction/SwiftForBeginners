@@ -40,6 +40,7 @@
 		09CCE74C259DC782004FED69 /* 3_DefaultValues.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 3_DefaultValues.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09CCE74E259DCCF0004FED69 /* 4_ReturningComplexValues.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 4_ReturningComplexValues.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09CCE750259DD483004FED69 /* 5_FunctionScope.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 5_FunctionScope.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		09D2295C25A515C100475377 /* 1_WhatIsSwift.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_WhatIsSwift.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09EBCB0C25861623008C2AEC /* SwiftForBeginners.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftForBeginners.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09EBCB0F25861623008C2AEC /* SwiftForBeginnersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftForBeginnersApp.swift; sourceTree = "<group>"; };
 		09EBCB1125861623008C2AEC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -138,6 +139,22 @@
 			path = CHAPTER2_AddingPowerToFunctions;
 			sourceTree = "<group>";
 		};
+		09D2295A25A5155800475377 /* COURSE1_SwiftBasics */ = {
+			isa = PBXGroup;
+			children = (
+				09D2295B25A5157400475377 /* CHAPTER1_IntroToSwiftProgramming */,
+			);
+			path = COURSE1_SwiftBasics;
+			sourceTree = "<group>";
+		};
+		09D2295B25A5157400475377 /* CHAPTER1_IntroToSwiftProgramming */ = {
+			isa = PBXGroup;
+			children = (
+				09D2295C25A515C100475377 /* 1_WhatIsSwift.playground */,
+			);
+			path = CHAPTER1_IntroToSwiftProgramming;
+			sourceTree = "<group>";
+		};
 		09EBCB0325861622008C2AEC = {
 			isa = PBXGroup;
 			children = (
@@ -178,6 +195,7 @@
 		09EBCB1F25861649008C2AEC /* Playgrounds */ = {
 			isa = PBXGroup;
 			children = (
+				09D2295A25A5155800475377 /* COURSE1_SwiftBasics */,
 				09CCE73C259CDFF3004FED69 /* COURSE3_Functions */,
 				09EBCB20258617B7008C2AEC /* COURSE6_EnumerationsAndOptionals */,
 				0934D681258F6B7A00302C9C /* COURSE8_ErrorHandling */,
