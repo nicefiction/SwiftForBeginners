@@ -28,7 +28,7 @@ import Foundation
  giving it a name
  and assigning some data to it .
  */
-// Keyword var + Name + Assignment operator = + Data
+// Keyword var + Name + Assignment operator (=) + Data
 /**
  `NOTE`:
  • The keyword `var` is only used to create a brand new variable.
