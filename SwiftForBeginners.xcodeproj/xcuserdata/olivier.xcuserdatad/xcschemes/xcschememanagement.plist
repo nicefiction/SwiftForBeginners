@@ -977,6 +977,27 @@
 			<key>orderHint</key>
 			<integer>21</integer>
 		</dict>
+		<key>4_UnaryOperators (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>54</integer>
+		</dict>
+		<key>4_UnaryOperators (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>55</integer>
+		</dict>
+		<key>4_UnaryOperators (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>53</integer>
+		</dict>
 		<key>5_CleaningUpWithDefer (Playground) 1.xcscheme</key>
 		<dict>
 			<key>isShown</key>

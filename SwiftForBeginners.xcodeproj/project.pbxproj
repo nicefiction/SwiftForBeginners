@@ -29,6 +29,7 @@
 		0945E24425A7AEE200127166 /* 1_ArithmeticOperators.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_ArithmeticOperators.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		0945E24625A7B1CA00127166 /* 2_AssignmentAndComparison.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2_AssignmentAndComparison.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		0945E24825A7B3B200127166 /* 3_OperatorPrecedence.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 3_OperatorPrecedence.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		0945E24B25A7B5F700127166 /* 4_UnaryOperators.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 4_UnaryOperators.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		095CE151258AA98000F9DC22 /* 5_EarlyExitsUsingGuard.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 5_EarlyExitsUsingGuard.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		095CE15B258BD6FD00F9DC22 /* 1_EnumerationsWithRawValues.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_EnumerationsWithRawValues.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		098A83E225864390005CA46F /* 4_AssociatedEnums.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 4_AssociatedEnums.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -109,6 +110,7 @@
 				0945E24425A7AEE200127166 /* 1_ArithmeticOperators.playground */,
 				0945E24625A7B1CA00127166 /* 2_AssignmentAndComparison.playground */,
 				0945E24825A7B3B200127166 /* 3_OperatorPrecedence.playground */,
+				0945E24B25A7B5F700127166 /* 4_UnaryOperators.playground */,
 			);
 			path = CHAPTER3_SwiftOperators;
 			sourceTree = "<group>";
@@ -172,9 +174,9 @@
 		09D2295A25A5155800475377 /* COURSE1_SwiftBasics */ = {
 			isa = PBXGroup;
 			children = (
-				0945E24325A7AE9E00127166 /* CHAPTER3_SwiftOperators */,
 				09D2295B25A5157400475377 /* CHAPTER1_IntroToSwiftProgramming */,
 				0945E23B25A7A1F900127166 /* CHAPTER2_SwiftTypes */,
+				0945E24325A7AE9E00127166 /* CHAPTER3_SwiftOperators */,
 			);
 			path = COURSE1_SwiftBasics;
 			sourceTree = "<group>";
