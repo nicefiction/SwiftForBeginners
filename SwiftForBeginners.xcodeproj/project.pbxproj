@@ -27,6 +27,7 @@
 		0945E23F25A7A86F00127166 /* 2_NumbersAndBooleans.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2_NumbersAndBooleans.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		0945E24125A7AD0700127166 /* 3_TypeSafetyAndTypeInference.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 3_TypeSafetyAndTypeInference.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		0945E24425A7AEE200127166 /* 1_ArithmeticOperators.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_ArithmeticOperators.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		0945E24625A7B1CA00127166 /* 2_AssignmentAndComparison.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2_AssignmentAndComparison.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		095CE151258AA98000F9DC22 /* 5_EarlyExitsUsingGuard.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 5_EarlyExitsUsingGuard.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		095CE15B258BD6FD00F9DC22 /* 1_EnumerationsWithRawValues.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_EnumerationsWithRawValues.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		098A83E225864390005CA46F /* 4_AssociatedEnums.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 4_AssociatedEnums.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -105,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				0945E24425A7AEE200127166 /* 1_ArithmeticOperators.playground */,
+				0945E24625A7B1CA00127166 /* 2_AssignmentAndComparison.playground */,
 			);
 			path = CHAPTER3_SwiftOperators;
 			sourceTree = "<group>";
