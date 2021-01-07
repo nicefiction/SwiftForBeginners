@@ -77,21 +77,3 @@ let quotation = """
 The White Rabbit put on his spectacles . "Where shall I begin , please your Majesty ?" he asked .
 "Begin at the beginning ," the King said gravely , "and go on till you come to the end ; then stop ."
 """
-/**
- `ANGELA YU` : 
- There are different ways of converting data into Strings .
- To round off a Double , or Float to two decimal places :
- */
-let bmiResult = 23.1234567
-String(format : "%.2f" ,
-       bmiResult)
-
-print(bmiResult) // returns "23.12"
-/**
- We are expecting the format to be expressed as a String :
- `String( ... )`
- And we are going to specify that we want to round off
- whatever we put in bmiResult — a Float or a Double —
- to only two decimal places :
- `"%.2f"`
- */

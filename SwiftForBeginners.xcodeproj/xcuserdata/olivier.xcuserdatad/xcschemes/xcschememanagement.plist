@@ -389,6 +389,27 @@
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
+		<key>2_NumbersAndBooleans (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>39</integer>
+		</dict>
+		<key>2_NumbersAndBooleans (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>40</integer>
+		</dict>
+		<key>2_NumbersAndBooleans (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>38</integer>
+		</dict>
 		<key>2_WorkingWithOptionalTypes (Playground) 1.xcscheme</key>
 		<dict>
 			<key>isShown</key>
