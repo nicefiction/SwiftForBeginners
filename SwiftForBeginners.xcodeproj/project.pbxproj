@@ -23,6 +23,7 @@
 		0934D67D258E2CEE00302C9C /* 4_PatternMatchingWithEnums.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 4_PatternMatchingWithEnums.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		0934D67F258E369D00302C9C /* 5_NilCoalescingOperator.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 5_NilCoalescingOperator.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		0934D683258F6C4700302C9C /* 1_ErrorHandling.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_ErrorHandling.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		0945E23C25A7A24200127166 /* 1_Strings.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_Strings.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		095CE151258AA98000F9DC22 /* 5_EarlyExitsUsingGuard.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 5_EarlyExitsUsingGuard.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		095CE15B258BD6FD00F9DC22 /* 1_EnumerationsWithRawValues.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_EnumerationsWithRawValues.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		098A83E225864390005CA46F /* 4_AssociatedEnums.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 4_AssociatedEnums.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -87,6 +88,14 @@
 			path = COURSE8_ErrorHandling;
 			sourceTree = "<group>";
 		};
+		0945E23B25A7A1F900127166 /* CHAPTER2_SwiftTypes */ = {
+			isa = PBXGroup;
+			children = (
+				0945E23C25A7A24200127166 /* 1_Strings.playground */,
+			);
+			path = CHAPTER2_SwiftTypes;
+			sourceTree = "<group>";
+		};
 		095CE157258BD66200F9DC22 /* CHAPTER3_ObjectsAndOptionals */ = {
 			isa = PBXGroup;
 			children = (
@@ -147,6 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				09D2295B25A5157400475377 /* CHAPTER1_IntroToSwiftProgramming */,
+				0945E23B25A7A1F900127166 /* CHAPTER2_SwiftTypes */,
 			);
 			path = COURSE1_SwiftBasics;
 			sourceTree = "<group>";
