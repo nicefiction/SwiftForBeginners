@@ -662,6 +662,27 @@
 			<key>orderHint</key>
 			<integer>33</integer>
 		</dict>
+		<key>3_TypeSafetyAndTypeInference (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>42</integer>
+		</dict>
+		<key>3_TypeSafetyAndTypeInference (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>43</integer>
+		</dict>
+		<key>3_TypeSafetyAndTypeInference (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>41</integer>
+		</dict>
 		<key>3_Variables (Playground).xcscheme</key>
 		<dict>
 			<key>isShown</key>
