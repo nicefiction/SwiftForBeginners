@@ -41,6 +41,7 @@
 		09B886442588AB01009C81D0 /* 4_DownsidesToUsingIfLet.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 4_DownsidesToUsingIfLet.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09BB368225D51FAA007CD8A2 /* 2_CreatingAProtocol.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2_CreatingAProtocol.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09BB368425D52B20007CD8A2 /* 3_WhyAreProtocolsUseful.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 3_WhyAreProtocolsUseful.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		09BB368625D53A57007CD8A2 /* 4_ModelingBehaviorWithProtocols.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 4_ModelingBehaviorWithProtocols.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09CCE73E259CE067004FED69 /* 1_WhatIsAFunction.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_WhatIsAFunction.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09CCE741259CE34A004FED69 /* 2_FunctionsInCode.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2_FunctionsInCode.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09CCE743259CE50B004FED69 /* 3_FunctionParameters.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 3_FunctionParameters.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -156,6 +157,7 @@
 				0913620425D51C3200D91F9A /* 1_WhatIsAProtocol.playground */,
 				09BB368225D51FAA007CD8A2 /* 2_CreatingAProtocol.playground */,
 				09BB368425D52B20007CD8A2 /* 3_WhyAreProtocolsUseful.playground */,
+				09BB368625D53A57007CD8A2 /* 4_ModelingBehaviorWithProtocols.playground */,
 			);
 			path = CHAPTER1_ProtocolBasics;
 			sourceTree = "<group>";
