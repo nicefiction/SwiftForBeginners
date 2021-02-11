@@ -221,6 +221,13 @@
 			<key>orderHint</key>
 			<integer>19</integer>
 		</dict>
+		<key>1_WhatIsAProtocol (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 		<key>1_WhatIsSwift (Playground) 1.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -548,7 +555,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>13</integer>
+			<integer>2</integer>
 		</dict>
 		<key>3_FunctionParameters (Playground) 1.xcscheme</key>
 		<dict>
@@ -779,7 +786,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>21</integer>
+			<integer>3</integer>
 		</dict>
 		<key>3_WhyAreProtocolsUseful (Playground) 1.xcscheme</key>
 		<dict>
@@ -1178,7 +1185,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>36</integer>
+			<integer>0</integer>
 		</dict>
 		<key>5_FunctionScope (Playground) 1.xcscheme</key>
 		<dict>
@@ -1292,6 +1299,27 @@
 			<key>orderHint</key>
 			<integer>6</integer>
 		</dict>
+		<key>5_ProtocolsAsTypes (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>56</integer>
+		</dict>
+		<key>5_ProtocolsAsTypes (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>57</integer>
+		</dict>
+		<key>5_ProtocolsAsTypes (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>55</integer>
+		</dict>
 		<key>CHAPTER1_ErrorHandling (Playground) 1.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -1393,7 +1421,7 @@
 		<key>SwiftForBeginners.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<key>Variables (Playground) 1.xcscheme</key>
 		<dict>

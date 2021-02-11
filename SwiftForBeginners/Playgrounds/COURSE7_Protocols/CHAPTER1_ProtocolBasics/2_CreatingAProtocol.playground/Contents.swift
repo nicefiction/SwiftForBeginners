@@ -21,6 +21,7 @@ import Foundation
 
 protocol FullNameAble {
     
+    // var fullName: String { get set }
     var fullName: String { get }
 }
 
@@ -46,9 +47,20 @@ protocol FullNameAble {
 struct User: FullNameAble {
     
     // var fullName: Int
+    // let fullName: String // ERROR : Type 'User' does not conform to protocol 'FullNameAble' . Candidate is not settable , but protocol requires it .
     var fullName: String
 }
 
+/**
+ `NOTE` :
+ If a stored property requirement in a protocol
+ is defined as both gettable and settable ,
+ the property cannot be implemented as a constant .
+ `NOTE` OLIVIER :
+ If a stored property requirement in a protocol
+ is defined as gettable
+ the property can be implemented as both a constant and variable .
+ */
 /**
  Notice the moment we add this , the error goes away .
  Also take note of the fact that I specified the type here to be `String` .
@@ -152,6 +164,21 @@ struct Friend: FullNameAble {
 }
 
 /**
+ `NOTE` OLIVIER :
+ `fullName` can be defined here as a computed property
+ because the property requirement in the proptocol
+ has been defined as gettable only ...
+ 
+ `struct User: FullNameAble {`
+ 
+    `var fullName: String { get }`
+ `}`
+ 
+ ... If the property would be settable as well
+ then one could define the property as a constant as well ,
+ which is not allowed with conputed properties .
+ 
+ 
  We have created an interpolated String here ,
  
  `return "\(firstName) \(middleName) \(lastName)"`
