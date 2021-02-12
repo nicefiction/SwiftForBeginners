@@ -14,6 +14,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		090406CD25D587010089DB3A /* 1_ProtocolInheritance.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_ProtocolInheritance.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		090505E5258FEE6300DA6F8E /* 2_ModellingErrors.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2_ModellingErrors.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		090505E72590ABEA00DA6F8E /* 3_ThrowingErrors.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 3_ThrowingErrors.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		090505E92590F83400DA6F8E /* 4_HandlingErrors.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 4_HandlingErrors.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -79,6 +80,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		090406CC25D586CA0089DB3A /* CHAPTER2_CreatingFlexibleObjectsUsingProtocols */ = {
+			isa = PBXGroup;
+			children = (
+				090406CD25D587010089DB3A /* 1_ProtocolInheritance.playground */,
+			);
+			path = CHAPTER2_CreatingFlexibleObjectsUsingProtocols;
+			sourceTree = "<group>";
+		};
 		090505E2258FEE0000DA6F8E /* CHAPTER1_ErrorHandling */ = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				09BB367E25D51F53007CD8A2 /* CHAPTER1_ProtocolBasics */,
+				090406CC25D586CA0089DB3A /* CHAPTER2_CreatingFlexibleObjectsUsingProtocols */,
 			);
 			path = COURSE7_Protocols;
 			sourceTree = "<group>";

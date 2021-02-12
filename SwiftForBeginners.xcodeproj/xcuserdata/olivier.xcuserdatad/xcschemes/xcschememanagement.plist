@@ -23,7 +23,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>24</integer>
+			<integer>14</integer>
 		</dict>
 		<key>1_EnumerationsWithRawValues (Playground) 1.xcscheme</key>
 		<dict>
@@ -51,7 +51,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>23</integer>
+			<integer>12</integer>
 		</dict>
 		<key>1_ErrorHandling (Playground) 1.xcscheme</key>
 		<dict>
@@ -72,7 +72,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>27</integer>
+			<integer>39</integer>
 		</dict>
 		<key>1_NamingConventions (Playground) 1.xcscheme</key>
 		<dict>
@@ -93,14 +93,35 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>39</integer>
+			<integer>19</integer>
+		</dict>
+		<key>1_ProtocolInheritance (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>48</integer>
+		</dict>
+		<key>1_ProtocolInheritance (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>49</integer>
+		</dict>
+		<key>1_ProtocolInheritance (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>47</integer>
 		</dict>
 		<key>1_Strings (Playground).xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>37</integer>
+			<integer>21</integer>
 		</dict>
 		<key>1_TheAbsenceOfData (Playground) 1.xcscheme</key>
 		<dict>
@@ -149,7 +170,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>26</integer>
+			<integer>15</integer>
 		</dict>
 		<key>1_TheProblemWithPrimitives (Playground) 1.xcscheme</key>
 		<dict>
@@ -198,7 +219,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>10</integer>
+			<integer>28</integer>
 		</dict>
 		<key>1_WhatIsAFunction (Playground) 1.xcscheme</key>
 		<dict>
@@ -219,7 +240,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>19</integer>
+			<integer>37</integer>
 		</dict>
 		<key>1_WhatIsAProtocol (Playground).xcscheme</key>
 		<dict>
@@ -247,7 +268,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>41</integer>
+			<integer>45</integer>
 		</dict>
 		<key>2_ArgumentLabels (Playground) 1.xcscheme</key>
 		<dict>
@@ -268,7 +289,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>13</integer>
 		</dict>
 		<key>2_AssignmentAndComparison (Playground) 1.xcscheme</key>
 		<dict>
@@ -289,7 +310,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>7</integer>
 		</dict>
 		<key>2_CreatingAProtocol (Playground) 1.xcscheme</key>
 		<dict>
@@ -310,7 +331,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>46</integer>
+			<integer>30</integer>
 		</dict>
 		<key>2_FunctionsInCode (Playground) 1.xcscheme</key>
 		<dict>
@@ -331,7 +352,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>25</integer>
+			<integer>31</integer>
 		</dict>
 		<key>2_InitializingWithRawValues (Playground) 1.xcscheme</key>
 		<dict>
@@ -373,7 +394,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>15</integer>
+			<integer>46</integer>
 		</dict>
 		<key>2_IntroToXCode (Playground) 1.xcscheme</key>
 		<dict>
@@ -394,7 +415,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>14</integer>
+			<integer>32</integer>
 		</dict>
 		<key>2_ModellingErrors (Playground) 1.xcscheme</key>
 		<dict>
@@ -415,7 +436,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>29</integer>
+			<integer>27</integer>
 		</dict>
 		<key>2_ModellingFiniteData (Playground) 1.xcscheme</key>
 		<dict>
@@ -464,7 +485,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>35</integer>
+			<integer>18</integer>
 		</dict>
 		<key>2_NumbersAndBooleans (Playground) 1.xcscheme</key>
 		<dict>
@@ -485,7 +506,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>17</integer>
+			<integer>41</integer>
 		</dict>
 		<key>2_WorkingWithOptionalTypes (Playground) 1.xcscheme</key>
 		<dict>
@@ -534,7 +555,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>28</integer>
+			<integer>10</integer>
 		</dict>
 		<key>3_DefaultValues (Playground) 1.xcscheme</key>
 		<dict>
@@ -576,7 +597,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>40</integer>
+			<integer>29</integer>
 		</dict>
 		<key>3_GettingRidOfStrings (Playground) 1.xcscheme</key>
 		<dict>
@@ -625,7 +646,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>16</integer>
+			<integer>43</integer>
 		</dict>
 		<key>3_OperatorPrecedence (Playground) 1.xcscheme</key>
 		<dict>
@@ -646,7 +667,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>20</integer>
+			<integer>42</integer>
 		</dict>
 		<key>3_OptionalBinding (Playground) 1.xcscheme</key>
 		<dict>
@@ -695,7 +716,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>18</integer>
+			<integer>34</integer>
 		</dict>
 		<key>3_OptionalChaining (Playground) 1.xcscheme</key>
 		<dict>
@@ -737,7 +758,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>34</integer>
+			<integer>6</integer>
 		</dict>
 		<key>3_ThrowingErrors (Playground) 1.xcscheme</key>
 		<dict>
@@ -758,7 +779,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>9</integer>
+			<integer>23</integer>
 		</dict>
 		<key>3_TypeSafetyAndTypeInference (Playground) 1.xcscheme</key>
 		<dict>
@@ -779,7 +800,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>32</integer>
+			<integer>40</integer>
 		</dict>
 		<key>3_Variables (Playground).xcscheme</key>
 		<dict>
@@ -807,7 +828,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>49</integer>
+			<integer>11</integer>
 		</dict>
 		<key>4_AssociatedEnums (Playground) 1.xcscheme</key>
 		<dict>
@@ -856,7 +877,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>4</integer>
+			<integer>8</integer>
 		</dict>
 		<key>4_Constants (Playground) 1.xcscheme</key>
 		<dict>
@@ -877,7 +898,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>22</integer>
 		</dict>
 		<key>4_DownsidesToUsingIfLet (Playground) 1.xcscheme</key>
 		<dict>
@@ -926,7 +947,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>11</integer>
+			<integer>38</integer>
 		</dict>
 		<key>4_HandlingErrors (Playground) 1.xcscheme</key>
 		<dict>
@@ -947,7 +968,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>31</integer>
+			<integer>16</integer>
 		</dict>
 		<key>4_ModelingBehaviorWithProtocols (Playground) 1.xcscheme</key>
 		<dict>
@@ -968,7 +989,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>52</integer>
+			<integer>17</integer>
 		</dict>
 		<key>4_PatternMatchingWithEnums (Playground) 1.xcscheme</key>
 		<dict>
@@ -1010,7 +1031,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>8</integer>
+			<integer>36</integer>
 		</dict>
 		<key>4_ReturnTypes (Playground) 1.xcscheme</key>
 		<dict>
@@ -1031,7 +1052,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>38</integer>
+			<integer>26</integer>
 		</dict>
 		<key>4_ReturningComplexValues (Playground) 1.xcscheme</key>
 		<dict>
@@ -1052,7 +1073,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>22</integer>
+			<integer>25</integer>
 		</dict>
 		<key>4_UnaryOperators (Playground) 1.xcscheme</key>
 		<dict>
@@ -1073,7 +1094,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>33</integer>
+			<integer>5</integer>
 		</dict>
 		<key>5_CleaningUpWithDefer (Playground) 1.xcscheme</key>
 		<dict>
@@ -1094,7 +1115,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>42</integer>
+			<integer>24</integer>
 		</dict>
 		<key>5_ConventionsAndRules (Playground) 1.xcscheme</key>
 		<dict>
@@ -1115,7 +1136,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>5</integer>
+			<integer>44</integer>
 		</dict>
 		<key>5_EarlyExitsUsingGuard (Playground) 1.xcscheme</key>
 		<dict>
@@ -1206,7 +1227,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>7</integer>
+			<integer>33</integer>
 		</dict>
 		<key>5_MethodsOnEnumerations (Playground) 1.xcscheme</key>
 		<dict>
@@ -1255,7 +1276,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>30</integer>
+			<integer>20</integer>
 		</dict>
 		<key>5_NilCoalescingOperator (Playground) 1.xcscheme</key>
 		<dict>
@@ -1297,7 +1318,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>6</integer>
+			<integer>9</integer>
 		</dict>
 		<key>5_ProtocolsAsTypes (Playground) 1.xcscheme</key>
 		<dict>
@@ -1318,7 +1339,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>55</integer>
+			<integer>35</integer>
 		</dict>
 		<key>CHAPTER1_ErrorHandling (Playground) 1.xcscheme</key>
 		<dict>
@@ -1421,7 +1442,7 @@
 		<key>SwiftForBeginners.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>0</integer>
 		</dict>
 		<key>Variables (Playground) 1.xcscheme</key>
 		<dict>
