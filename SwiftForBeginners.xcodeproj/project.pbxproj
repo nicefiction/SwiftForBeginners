@@ -38,6 +38,7 @@
 		098A83E5258646DF005CA46F /* 5_MethodsOnEnumerations.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 5_MethodsOnEnumerations.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		098A83ED258652C3005CA46F /* 1_TheAbsenceOfData.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_TheAbsenceOfData.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		098A83EF2587FDB0005CA46F /* 2_WorkingWithOptionalTypes.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2_WorkingWithOptionalTypes.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		09A3568825D6800E0006EFE0 /* SwiftStandardLibraryProtocols.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SwiftStandardLibraryProtocols.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09B8864225880515009C81D0 /* 3_OptionalBinding.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 3_OptionalBinding.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09B886442588AB01009C81D0 /* 4_DownsidesToUsingIfLet.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 4_DownsidesToUsingIfLet.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09BB368225D51FAA007CD8A2 /* 2_CreatingAProtocol.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2_CreatingAProtocol.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -84,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				090406CD25D587010089DB3A /* 1_ProtocolInheritance.playground */,
+				09A3568825D6800E0006EFE0 /* SwiftStandardLibraryProtocols.playground */,
 			);
 			path = CHAPTER2_CreatingFlexibleObjectsUsingProtocols;
 			sourceTree = "<group>";
