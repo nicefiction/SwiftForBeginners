@@ -279,8 +279,8 @@
 				09D2295A25A5155800475377 /* COURSE1_SwiftBasics */,
 				09CCE73C259CDFF3004FED69 /* COURSE3_Functions */,
 				09EBCB20258617B7008C2AEC /* COURSE6_EnumerationsAndOptionals */,
-				0934D681258F6B7A00302C9C /* COURSE8_ErrorHandling */,
 				0913620325D51BFE00D91F9A /* COURSE7_Protocols */,
+				0934D681258F6B7A00302C9C /* COURSE8_ErrorHandling */,
 			);
 			path = Playgrounds;
 			sourceTree = "<group>";

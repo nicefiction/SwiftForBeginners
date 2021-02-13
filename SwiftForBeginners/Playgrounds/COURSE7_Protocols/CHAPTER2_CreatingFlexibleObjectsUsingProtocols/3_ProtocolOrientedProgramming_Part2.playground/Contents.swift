@@ -30,7 +30,7 @@ protocol CanDoDestruct {
 }
 
 
-// protocol AttackAble {}
+// protocol CanDoAttack {}
 
 /**
  But we are still missing some information about the identity of our players .
@@ -40,7 +40,7 @@ protocol CanDoDestruct {
 /*
 protocol IsAPlayer {
     
-    var position: Int { get set }
+    var position: Point { get set }
     var life: Int { get set }
     
     init(x: Int ,
@@ -50,10 +50,10 @@ protocol IsAPlayer {
 /**
  Every Player in the game is initialised at a particular point on a map :
  
- `init(x: Int, y: Int)`
+ `init(x: Int , y: Int)`
  
- So any class that represents an IsAPlayer
- — whether it is some kind of Tower or Enemy —
+ So any class that represents an `IsAPlayer`
+ — whether it is some kind of `Tower` or `Enemy` —
  needs an initializer method
  that takes a `Point`
  or at least a Point on the map
@@ -85,7 +85,7 @@ protocol CanDoAttack {
  a `player` needs a `strength` factor in its attack .
  This determines how strong that attack is . And this can't be changed ,
  so it is just a gettable property .
- Any type that can attack also needs an `attack( )` method .
+ Any type that can attack also needs an `attack()` method .
  It also needs an enemy to target so we'll say , `player` .
  We don't want to say _enemy_ ,
  because both the `Tower` and the `Enemy` can attack .
@@ -93,20 +93,52 @@ protocol CanDoAttack {
  Now this would seem to make sense
  but it actually won't work
  because the `IsAPlayer` protocol only encapsulates `position` and `life` .
- life is what we want to decrease . But remember ,
+ 
+ `protocol IsAPlayer {`
+     
+     `var position: Point { get set }`
+     `var life: Int { get set }`
+     
+     `init(x: Int ,`
+          `y: Int)`
+ `}`
+ 
+ `life` is what we want to decrease . But remember ,
  when we learned about Object Oriented programming , we said
  that we don't want to mess around with the stored properties of another type directly .
  We want to do that through instance methods . So here
  when we attack a player , ...
  
- `func attack(player: IsAPlayer)`
+ `protocol CanDoAttack {`
+     
+     `var strength: Int { get }`
+     `var range: Int { get }`
+     
+     `func attack(player: IsAPlayer)`
+ `}`
  
  ... we would like to simply call `decreaseLife()` method on that `player` .
  Because that is modelled by the `CanDoDestruct` protocol ,
+ 
+ `protocol CanDoDestruct {`
+     
+     `func decreaseLife(by factor: Int)`
+ `}`
+ 
  so these two — `CanDoAttack` and `CanDoDestruct` — go hand-in-hand :
  A player that can attack ,
  needs to attack a type that is destructible .
  The `decreaseLife()` method isn't modelled by the `IsAPlayer` protocol .
+ 
+ `protocol IsAPlayer {`
+     
+     `var position: Point { get set }`
+     `var life: Int { get set }`
+     
+     `init(x: Int ,`
+          `y: Int)`
+ `}`
+ 
  But we need access to that .
  So there are two things we can do .
  One way to do it , is ,
@@ -122,7 +154,8 @@ protocol CanDoAttack {
  
  but we won’t choose this option
  because of the way we are designing our game .
- Every instance of `IsAPlayer` on our map is actually destructible . Instead ,
+ Every instance of `IsAPlayer` on our map is actually destructible .
+ Instead , we'll say that `IsAPlayer` has to inherit from `CanDoDestruct` :
  */
 
 protocol IsAPlayer: CanDoDestruct {
@@ -135,9 +168,17 @@ protocol IsAPlayer: CanDoDestruct {
 }
 
 /**
- we'll say that `IsAPlayer` has to inherit from `CanDoDestruct` . So now ,
+ So now ,
  we have access to the `decreaseLife()` method , through `IsAPlayer` ,
- because `IsAPlayer` knows about that method now .
+ because `IsAPlayer` knows about that method now :
+ 
+ `protocol CanDoAttack {`
+     
+     `var strength: Int { get }`
+     `var range: Int { get }`
+     
+     `func attack(player: IsAPlayer)`
+ `}`
  
  `GOOD PRACTICE` : You might be thinking , this is a lot of small protocols .
  Wouldn't it be neater to have one protocol , say , called `IsAnEnemy` ,
@@ -149,10 +190,7 @@ protocol IsAPlayer: CanDoDestruct {
  and easier to get your head wrapped around what each type is doing .
  
  Okay , so now we have these protocols ,
- let's actually implement them in our types .
- The `Enemy` is first and foremost down here , an `IsAPlayer` .
- So let's conform to the `IsAPlayer` protocol :
-
+ let's actually implement them in our types :
  */
 
 struct Point {
@@ -181,6 +219,11 @@ struct Point {
     }
 }
 
+/**
+ The `Enemy` is first and foremost down here , an `IsAPlayer` .
+ So let's conform to the `IsAPlayer` protocol :
+ */
+
 /*
 class Enemy: IsAPlayer {
     
@@ -206,10 +249,9 @@ class Enemy: IsAPlayer {
 /**
  We are getting a few errors and that is not because of the `IsAPlayer` protocol actually .
  We are already conforming to `IsAPlayer` in every way ,
- because we have the `init( )` method , and a `position` ,
+ because we have the `init()` method , and a `position` ,
  and we have a `life` as modelled by a `IsAPlayer` up here .
- We do have an error here
- because — in order to conform to the `IsAPlayer` protocol —
+ We do have an error here because — in order to conform to the `IsAPlayer` protocol —
  ( 1 ) `position` needs to be both gettable and settable .
  We therefore need to change the `position` property
  from a constant to a variable .

@@ -41,3 +41,30 @@ import Foundation
  you can start building more complex object graphs
  and eventually apps with much cooler features .
  */
+/**
+ EPILOGUE — Gotcha :
+ */
+
+protocol IsAHuman {
+    
+    var name: String { get set }
+}
+
+
+protocol IsAPlant {
+    
+    var hasLeaves: Bool { get }
+}
+
+
+struct Human: IsAHuman {
+    
+    // let name: String // ERROR : Type 'Human' does not conform to protocol 'IsAHuman' . OLIVIER : When a protocol requirement is both gettable and settable , you could only have a variable .
+    var name: String
+}
+
+
+struct Plant: IsAPlant {
+    // var hasLeaves: Bool // OLIVIER : This works as well . So , with a gettable only requirement , you could end up with either a constant or a variable .
+    let hasLeaves: Bool
+}
