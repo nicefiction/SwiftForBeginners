@@ -38,7 +38,7 @@
 		098A83E5258646DF005CA46F /* 5_MethodsOnEnumerations.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 5_MethodsOnEnumerations.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		098A83ED258652C3005CA46F /* 1_TheAbsenceOfData.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_TheAbsenceOfData.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		098A83EF2587FDB0005CA46F /* 2_WorkingWithOptionalTypes.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2_WorkingWithOptionalTypes.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		09A3568825D6800E0006EFE0 /* SwiftStandardLibraryProtocols.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SwiftStandardLibraryProtocols.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		09A3568825D6800E0006EFE0 /* 2_SwiftStandardLibraryProtocols.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2_SwiftStandardLibraryProtocols.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09B8864225880515009C81D0 /* 3_OptionalBinding.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 3_OptionalBinding.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09B886442588AB01009C81D0 /* 4_DownsidesToUsingIfLet.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 4_DownsidesToUsingIfLet.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09BB368225D51FAA007CD8A2 /* 2_CreatingAProtocol.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2_CreatingAProtocol.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -59,6 +59,7 @@
 		09D2296025A5187D00475377 /* 3_Variables.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 3_Variables.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09D2296325A51A4A00475377 /* 4_Constants.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 4_Constants.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09D2296525A51B0F00475377 /* 5_ConventionsAndRules.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 5_ConventionsAndRules.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		09D4A56725D690E1001848EE /* 3_ProtocolOrientedProgramming_Part1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 3_ProtocolOrientedProgramming_Part1.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09EBCB0C25861623008C2AEC /* SwiftForBeginners.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftForBeginners.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09EBCB0F25861623008C2AEC /* SwiftForBeginnersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftForBeginnersApp.swift; sourceTree = "<group>"; };
 		09EBCB1125861623008C2AEC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -85,7 +86,8 @@
 			isa = PBXGroup;
 			children = (
 				090406CD25D587010089DB3A /* 1_ProtocolInheritance.playground */,
-				09A3568825D6800E0006EFE0 /* SwiftStandardLibraryProtocols.playground */,
+				09A3568825D6800E0006EFE0 /* 2_SwiftStandardLibraryProtocols.playground */,
+				09D4A56725D690E1001848EE /* 3_ProtocolOrientedProgramming_Part1.playground */,
 			);
 			path = CHAPTER2_CreatingFlexibleObjectsUsingProtocols;
 			sourceTree = "<group>";
