@@ -1124,6 +1124,27 @@
 			<key>orderHint</key>
 			<integer>24</integer>
 		</dict>
+		<key>4_Recap (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>57</integer>
+		</dict>
+		<key>4_Recap (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>58</integer>
+		</dict>
+		<key>4_Recap (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>56</integer>
+		</dict>
 		<key>4_ReturnTypes (Playground) 1.xcscheme</key>
 		<dict>
 			<key>isShown</key>
