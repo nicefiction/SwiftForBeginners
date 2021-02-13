@@ -289,9 +289,9 @@ ozma == dorothy
 class Animal {}
     class Feline: Animal {}
         class Jagwyre: Feline {}
-        class Liger: Feline {}
+        class Liger1: Feline {}
     class Canine: Animal {}
-        class Doge: Canine {}
+        class Doge1: Canine {}
         class Pug: Canine {}
 
 /**
@@ -334,9 +334,9 @@ class Animal {}
  but instead ,
  I have broken them up into three categories :
 
- ( 1 ) Can Do
- ( 2 ) Is A
- ( 3 ) Can Be
+ ( 1 ) `CAN DO`
+ ( 2 ) `IS A`
+ ( 3 ) `CAN BE`
  
  We have got the `Can do` protocols ,
  the `Is a` protocols ,
@@ -345,9 +345,10 @@ class Animal {}
  and then see what lessons that we can take .
  */
 /**
- `1. Can Do protocols`
+ `1. CAN DO protocols`
  First up we got the `Can do` protocols .
- These describe things that the type can do or have done to it .
+ These describe things that the type can do
+ or have done to it .
  They also end in the `-able` syntax
  which makes them easy to spot as you are browsing through the headers .
  Here is an example :
@@ -373,9 +374,62 @@ class Animal {}
  
  So we have got _Operations_ ,
  we have got _Alternate Views_ .
+ What is the lesson that we can take ?
+ If you had an operation on your own types ,
+ say you were writing the next Instagram Killer photo filtering App ,
+ then you could add something like a `Filterable` protocol
+ 
+ `Filterable -> Image -> filtered image`
+ 
+ that you can then have your photo instances , your images , conform to .
+ Then say ,
+ your filtering app becomes a hit , it really takes off ,
+ you wanna expand to videos too .
+ And videos are just another form of media .
+ You could in theory also apply your `Filterable` protocol to
+ videos , audio , 3D photos , whatever happens to come up in the future .
+ 
+ `Filterable -> Image -> filtered image`
+ `Filterable -> Video -> filtered video`
+ `Filterable -> Audio -> filtered audio`
+ 
+ _And what about an example of Alternate Views ?_
+ There is always creating thumbnails from large photos ,
+ which you can think of as an alternate view for the full-sized photo .
+ Again , this isn't actually a conversion , it is just an alternate representation .
+ So , you could imagine something like a `Thumbnailable` protocol
+ — hopefully you'll come up with a better name — ,
+ */
+
+protocol Thumbnailable {
+    
+    func thumbnailRepresentation() -> Self
+}
+
+ /**
+ and maybe the audio version of a thumbnail .
+ A thumbnail is like a low bit rate version of the audio , or something like that .
+ The basic idea here , is ,
+ 
+ `Filterable -> Can have a filter applied to it .`
+ `Thumbnailable -> Has an alternate thumbnail view .`
+ 
+ to take these common operations that are in your app and in your code ,
+ and protocolize them — if that is a word .
+ Why would you want to do this ?
+ One benefit is to make the concept reusable .
+ You have several types that have some common operation that you need to apply ,
+ and now they can share a guaranteed common interface .
+ You can get the benefits of polymorphism ,
+ even in your structs and your enumerations .
+ Also , having this kind of compositional approach
+ helps you to separate the thing from its operations .
+ I am sure opinions can go either way here ,
+ but I like the idea of building up a type from smaller pieces like this ,
+ based on what they can do .
  */
 /**
- `2. Is A protocols` [7:30]
+ `2. IS A protocols` [7:30]
  Next step are the `Is a` protocols ,
  and these describe what kind of thing the type is .
  In contrast to the `can do` protocols ,
@@ -395,22 +449,66 @@ class Animal {}
  `SequenceType` ,
  `GeneratorType`
  
+ So , that is the `Is a` protocols .
+ Protocols as identity .
+ And what are the lessons that we can take from this pattern of protocol ?
+ Again, since these are identity based rather than operation based ,
+ you can use them for your larger groupings of your types .
+ Back to the canonical animal kingdom example :
+ 
+ `Animal -> Mammal ->  Barks -> FourLegs -> Canine`
+ 
+ Here is an exaggerated class hierarchy that is very long .
+ We don't even have a type at the bottom that we can instantiate .
+ Each step in this class hierarchy adds a little bit of functionality
+ on top of the previous one . With protocols ,
+ you can make your type system more compositional :
+ */
+
+protocol Legs {}
+protocol TwoLegs: Legs {}
+protocol FourLegs: Legs {}
+protocol Barks {}
+protocol Meows {}
+protocol MemeFriendly {}
+ 
+ /**
+ You have this menu of protocols
+ that you can build and take to use in your different types .
+ `Barks` and `Meows` for example ,
+ are more of a `can do` style of what the animal _can do_ ,
+ whereas `TwoLegs` and `FourLegs`
+ are more of an identity type .
+ And you'll notice that` TwoLegs` and `FourLegs` also has inheritance ,
+ because protocols can have inheritance like that .
  That means ,
  once you have these protocols set up ,
  you can build up what used to be that giant list of super-classes
  and you instead have a set of protocols , with inheritance if you need it .
  And then when you construct your type,
- you can choose which slices of identity here
- and functionality apply to the type.
+ you can choose which slices of
+ identity here
+ and functionality
+ apply to the type :
+ */
+
+class Doge: FourLegs ,
+            Barks ,
+            MemeFriendly {}
+
+class Liger: FourLegs ,
+             Meows {}
+
+/**
  Since your types can conform to multiple protocols ,
  this is how you build up the functionality of your type little by little
- based on protocol conformance .
+ based on `protocol conformance` .
  That is the second type of Standard Library protocol .
  The `Is a` protocols ,
  having to do with grouping things together and identity .
  */
 /**
- `3. Can Be protocols` [11:30]
+ `3. CAN BE protocols` [11:30]
  Finally we have the `Can be` types .
  Rather than just an alternate view of the same thing
  — as we have already seen —
@@ -427,6 +525,109 @@ class Animal {}
  `ArrayLiteralConvertible`
  `CustomStringConvertible`
  
+ So that is Protocols for Convertibility .
+ What are some of the lessons we can take from this kind of protocol ,
+ other than trying to keep the names of your types short ?
+ This one is pretty straightforward .
+ If you have types that can become other types ,
+ then don't just add a method , a computed property , or initializer .
+ Think about setting it up as a protocol .
+ Remember , you can use the protocol
+ to either specify conversion to , or from your type .
+ 
+ The other required example for any technical talk , aside from the animal one ,
+ is the employee database :
+ */
+ 
+// class Contractor {}
+class Manager {}
+class Employee {}
+ 
+ /**
+ If you have objects for people ,
+ regular employees , managers , contractors ,
+ then each of those kinds of people might be a separate type .
+ If a `Contractor` can get hired as an `Employee` ,
+ or an `Employee` can be promoted to a `Manager` ,
+ then that is a kind of a conversion .
+ You don't want to reenter
+ the person’s name , address , phone number , and social security number , and all of that .
+ You want to change a `Contractor` into an `Employee` relatively seamlessly .
+ For that you could have something like an `EmployeeConvertible` protocol :
+ */
+
+protocol EmployeeConvertible {
+    
+    func hire()
+    -> Employee
+}
+
+/**
+ And then , say , the `Contractor` type and the `Interviewee` type could conform to it :
+ */
+
+class Contractor: EmployeeConvertible {
+    
+    func hire()
+    -> Employee {
+        
+        return Employee()
+    }
+}
+
+
+class Interviewee: EmployeeConvertible {
+    
+    func hire()
+    -> Employee {
+        
+        return Employee()
+    }
+}
+ 
+/**
+ Whats the benefit of this though ?
+ Why have a protocol ,
+ plus a conversion method
+ rather than just a method , which seems simpler ?
+ Again part of it is the compositional approach .
+ 
+ `Contractor -> Can be an Employee`
+ `Interviewee -> Can be an Employee`
+ 
+ The fact that an `Interviewee` can become an `Employee`
+ is part of what the type is , but it is not exclusive .
+ Other kinds of people can become Employees as well .
+ By using a protocol
+ you can assure
+ that there is a common well defined interface
+ for converting some kind of person into an `Employee` :
+ 
+ `EmployeeConvertible ( Can be an Employee ) -> Contractor`
+ `EmployeeConvertible ( Can be an Employee ) -> Interviewee`
+ 
+ There is also a nice code as documentation benefit here :
+ 
+ `protocol EmployeeConvertible {`
+     
+     `func hire()`
+     `-> Employee`
+ `}`
+ 
+ `class Contractor: EmployeeConvertible { ... }`
+ `class Interviewee: EmployeeConvertible { ... }`
+ 
+ If you are browsing through your code ,
+ or someone else's code in the project
+ and you see `EmployeeConvertible`
+ and you qre already familiar with it ,
+ that tells you something right there about what the type can do
+ and what some of the interface is like .
+ Then you can also grep through your project
+ and look for the word `EmployeeConvertible` ,
+ and then right there in the search results ,
+ that is the list of types that can become employees .
+
  That is the third type of Standard Library protocol .
  The `Can be` protocol family ,
  handling conversions between your types .
@@ -442,26 +643,26 @@ class Animal {}
  that we have seen from our own code ? We have got four of them :
  */
 /**
- `2.1 Operations` [15:30]
+ `2.1 CAN DO : Operations` [15:30]
  If there are a common set of operations
  that you have to perform on your types ,
  consider breaking these out into a protocol .
  Related to that was Alternate views ...
  
- `2.2 Alternate views`
+ `2.2 AND DO : Alternate views`
  ... if your type has an alternate view ,
  or an alternate representation
  that is not quite a full on conversion ,
  think about whether it belongs as a common protocol .
  
- `2.3 Identity`
+ `2.3 IS A : Identity`
  For identity ,
  this is your chance to have something like
  multiple inheritance , or mix-ins in your types .
  Thinking about identity and what the types are
  and grouping similar types together with protocols .
  
- `2.4 Conversions`
+ `2.4 CAN BE : Conversions`
  Finally we have conversions ,
  whether you convert from a type , or to a type ,
  if that particular conversion is happening a lot in your code
