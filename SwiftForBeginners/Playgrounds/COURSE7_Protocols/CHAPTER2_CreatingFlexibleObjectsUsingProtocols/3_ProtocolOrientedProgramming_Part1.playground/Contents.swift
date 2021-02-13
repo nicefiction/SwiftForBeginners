@@ -130,16 +130,16 @@ class Tower {
  While there are completely different classes
  that in game have different attributes and different roles ,
  in code , they have a lot of things in common . For example ,
- both `Enemy` and `Tower` are initialised with an initial position :
+ both `Enemy` and `Tower` are initialised with an initial `position` :
  
  `let position: Point`
  
- Both `Enemy` and `Tower` have a life ,
+ Both `Enemy` and `Tower` have a `life` ,
  because you can destroy it :
  
  `var life: Int = 2` / ` let strength: Int = 1`
  
- Both `Enemy` and `Tower` can attack , and be attacked : f
+ Both `Enemy` and `Tower` can attack , and be attacked : 
  
  `func decreaseHealth()` and `func fire()`
  
@@ -162,17 +162,17 @@ enum Direction {
 }
 
 
-protocol MoveAble {
+protocol CanDoMove {
     
     func move(_ direction: Direction ,
               by distance: Int)
 }
 
 /**
- The `MoveAble` protocol declares a single method , `move()` ,
+ The `CanDoMove` protocol declares a single method , `move()` ,
  that given a `direction` and a `distance` ,
  allows an `Enemy` or `Tower `to move around .
- To make the `MoveAble` protocol actually work ,
+ To make the `CanDoMove` protocol actually work ,
  we need to implement the `Direction` enum first .
  The enum models the four types of movements on the map .
  We declare a `move()` function that moves in a particular direction .
@@ -183,13 +183,13 @@ protocol MoveAble {
  I am just going to give it a local name of `direction` . And then
  I want to specify the number of spaces that we move `by` , by `distance` .
  So now we have the moving behaviour modelled .
- We can guarantee that we can call `move()` on any type that conforms to `MoveAble` .
+ We can guarantee that we can call `move()` on any type that conforms to `CanDoMove` .
  Next ,
  both Enemies and Towers can be destroyed .
  Let's move this common behaviour into yet another protocol :
  */
 
-protocol DestructAble {
+protocol CanDoDestruct {
     
     func decreaseLife(by factor: Int)
 }
@@ -200,10 +200,10 @@ protocol DestructAble {
  and those are the only ones that we can fire on .
  Another behaviour in common is
  that both Enemies and Towers can attack .
- So let's create a third protocol named `AttackAble` to model this :
+ So let's create a third protocol named `CanDoAttack` to model this :
  */
 
-protocol AttackAble {}
+protocol CanDoAttack {}
 
 /**
  I am going to leave this one empty for now .
