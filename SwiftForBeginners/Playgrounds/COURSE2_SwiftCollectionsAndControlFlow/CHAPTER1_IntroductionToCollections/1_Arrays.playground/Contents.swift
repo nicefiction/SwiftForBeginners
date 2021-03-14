@@ -91,9 +91,9 @@ import Foundation
 
 let toDoList: [String] = [
     
-    "Finish collections course" ,
-    "Buy groceries" ,
-    "Respond to emails"
+    "Finish collections course ." ,
+    "Buy groceries ." ,
+    "Respond to emails ."
 ]
 
 /**
