@@ -41,6 +41,7 @@
 		099BAB7325FE0B8C00937AE6 /* 2_AddingItemsToArrays.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2_AddingItemsToArrays.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		099BAB7525FE0F4500937AE6 /* 3_ReadingAndModifyingAnArray.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 3_ReadingAndModifyingAnArray.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		099BAB7725FE111800937AE6 /* 4_InsertingAndDeletingValues.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 4_InsertingAndDeletingValues.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		099BAB7A25FE1AB500937AE6 /* 1_DictionariesInSwift.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_DictionariesInSwift.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09A3568825D6800E0006EFE0 /* 2_SwiftStandardLibraryProtocols.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2_SwiftStandardLibraryProtocols.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09A9F10B25D7C40000A34F63 /* 3_ProtocolOrientedProgramming_Part2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 3_ProtocolOrientedProgramming_Part2.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09A9F10F25D7DAC300A34F63 /* 4_Recap.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 4_Recap.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -174,10 +175,19 @@
 			path = CHAPTER2_IntroductionToOptionals;
 			sourceTree = "<group>";
 		};
+		099BAB7925FE1A6A00937AE6 /* CHAPTER2_Dictionaries */ = {
+			isa = PBXGroup;
+			children = (
+				099BAB7A25FE1AB500937AE6 /* 1_DictionariesInSwift.playground */,
+			);
+			path = CHAPTER2_Dictionaries;
+			sourceTree = "<group>";
+		};
 		09B981A925FCE55A0065057E /* COURSE2_SwiftCollectionsAndControlFlow */ = {
 			isa = PBXGroup;
 			children = (
 				09B981AA25FCE5850065057E /* CHAPTER1_IntroductionToCollections */,
+				099BAB7925FE1A6A00937AE6 /* CHAPTER2_Dictionaries */,
 			);
 			path = COURSE2_SwiftCollectionsAndControlFlow;
 			sourceTree = "<group>";
