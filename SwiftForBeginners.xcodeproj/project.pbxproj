@@ -43,6 +43,7 @@
 		09A9F10F25D7DAC300A34F63 /* 4_Recap.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 4_Recap.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09B8864225880515009C81D0 /* 3_OptionalBinding.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 3_OptionalBinding.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09B886442588AB01009C81D0 /* 4_DownsidesToUsingIfLet.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 4_DownsidesToUsingIfLet.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		09B981AB25FCF0430065057E /* 1_Arrays.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_Arrays.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09BB368225D51FAA007CD8A2 /* 2_CreatingAProtocol.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2_CreatingAProtocol.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09BB368425D52B20007CD8A2 /* 3_WhyAreProtocolsUseful.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 3_WhyAreProtocolsUseful.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09BB368625D53A57007CD8A2 /* 4_ModelingBehaviorWithProtocols.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 4_ModelingBehaviorWithProtocols.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -170,6 +171,22 @@
 			path = CHAPTER2_IntroductionToOptionals;
 			sourceTree = "<group>";
 		};
+		09B981A925FCE55A0065057E /* COURSE2_SwiftCollectionsAndControlFlow */ = {
+			isa = PBXGroup;
+			children = (
+				09B981AA25FCE5850065057E /* CHAPTER1_IntroductionToCollections */,
+			);
+			path = COURSE2_SwiftCollectionsAndControlFlow;
+			sourceTree = "<group>";
+		};
+		09B981AA25FCE5850065057E /* CHAPTER1_IntroductionToCollections */ = {
+			isa = PBXGroup;
+			children = (
+				09B981AB25FCF0430065057E /* 1_Arrays.playground */,
+			);
+			path = CHAPTER1_IntroductionToCollections;
+			sourceTree = "<group>";
+		};
 		09BB367E25D51F53007CD8A2 /* CHAPTER1_ProtocolBasics */ = {
 			isa = PBXGroup;
 			children = (
@@ -185,8 +202,8 @@
 		09CCE73C259CDFF3004FED69 /* COURSE3_Functions */ = {
 			isa = PBXGroup;
 			children = (
-				09CCE747259CEB4C004FED69 /* CHAPTER2_AddingPowerToFunctions */,
 				09CCE73D259CE038004FED69 /* CHAPTER1_FunctionsInSwift */,
+				09CCE747259CEB4C004FED69 /* CHAPTER2_AddingPowerToFunctions */,
 			);
 			path = COURSE3_Functions;
 			sourceTree = "<group>";
@@ -277,6 +294,7 @@
 			isa = PBXGroup;
 			children = (
 				09D2295A25A5155800475377 /* COURSE1_SwiftBasics */,
+				09B981A925FCE55A0065057E /* COURSE2_SwiftCollectionsAndControlFlow */,
 				09CCE73C259CDFF3004FED69 /* COURSE3_Functions */,
 				09EBCB20258617B7008C2AEC /* COURSE6_EnumerationsAndOptionals */,
 				0913620325D51BFE00D91F9A /* COURSE7_Protocols */,
