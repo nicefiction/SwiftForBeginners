@@ -40,6 +40,7 @@
 		098A83EF2587FDB0005CA46F /* 2_WorkingWithOptionalTypes.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2_WorkingWithOptionalTypes.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		099BAB7325FE0B8C00937AE6 /* 2_AddingItemsToArrays.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2_AddingItemsToArrays.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		099BAB7525FE0F4500937AE6 /* 3_ReadingAndModifyingAnArray.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 3_ReadingAndModifyingAnArray.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		099BAB7725FE111800937AE6 /* 4_InsertingAndDeletingValues.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 4_InsertingAndDeletingValues.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09A3568825D6800E0006EFE0 /* 2_SwiftStandardLibraryProtocols.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2_SwiftStandardLibraryProtocols.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09A9F10B25D7C40000A34F63 /* 3_ProtocolOrientedProgramming_Part2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 3_ProtocolOrientedProgramming_Part2.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09A9F10F25D7DAC300A34F63 /* 4_Recap.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 4_Recap.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -187,6 +188,7 @@
 				09B981AB25FCF0430065057E /* 1_Arrays.playground */,
 				099BAB7325FE0B8C00937AE6 /* 2_AddingItemsToArrays.playground */,
 				099BAB7525FE0F4500937AE6 /* 3_ReadingAndModifyingAnArray.playground */,
+				099BAB7725FE111800937AE6 /* 4_InsertingAndDeletingValues.playground */,
 			);
 			path = CHAPTER1_IntroductionToCollections;
 			sourceTree = "<group>";
