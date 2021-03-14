@@ -30,6 +30,9 @@ toDoList = toDoList + ["Order book online ."]
 
 toDoList += ["Order book online ."]
 
+
+print("My to-do list : \(toDoList)")
+
 /**
  `NOTE` : One cannot concatenate an Array to a String
  because of the `Type Safety` principle .
