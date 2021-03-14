@@ -578,6 +578,27 @@
 			<key>orderHint</key>
 			<integer>48</integer>
 		</dict>
+		<key>2_ModifyingADictionary (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>66</integer>
+		</dict>
+		<key>2_ModifyingADictionary (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>67</integer>
+		</dict>
+		<key>2_ModifyingADictionary (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>65</integer>
+		</dict>
 		<key>2_NumbersAndBooleans (Playground) 1.xcscheme</key>
 		<dict>
 			<key>isShown</key>
