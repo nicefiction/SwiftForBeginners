@@ -1292,6 +1292,27 @@
 			<key>orderHint</key>
 			<integer>41</integer>
 		</dict>
+		<key>4_InstanceMethods (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>68</integer>
+		</dict>
+		<key>4_InstanceMethods (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>69</integer>
+		</dict>
+		<key>4_InstanceMethods (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>67</integer>
+		</dict>
 		<key>4_ModelingBehaviorWithProtocols (Playground) 1.xcscheme</key>
 		<dict>
 			<key>isShown</key>

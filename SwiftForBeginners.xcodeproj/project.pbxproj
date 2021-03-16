@@ -53,6 +53,7 @@
 		09B886442588AB01009C81D0 /* 4_DownsidesToUsingIfLet.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 4_DownsidesToUsingIfLet.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09B8DCCA26009BAA00AA209C /* 2_InstancesOfObjects.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2_InstancesOfObjects.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09B8DCCC26009F8100AA209C /* 3_Methods.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 3_Methods.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		09B8DCCE2600BC6D00AA209C /* 4_InstanceMethods.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 4_InstanceMethods.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09B981AB25FCF0430065057E /* 1_Arrays.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_Arrays.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09BB368225D51FAA007CD8A2 /* 2_CreatingAProtocol.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2_CreatingAProtocol.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09BB368425D52B20007CD8A2 /* 3_WhyAreProtocolsUseful.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 3_WhyAreProtocolsUseful.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -183,6 +184,7 @@
 				096712A125FFD7A200E576E0 /* 1_IntroductionToStructs.playground */,
 				09B8DCCA26009BAA00AA209C /* 2_InstancesOfObjects.playground */,
 				09B8DCCC26009F8100AA209C /* 3_Methods.playground */,
+				09B8DCCE2600BC6D00AA209C /* 4_InstanceMethods.playground */,
 			);
 			path = CHAPTER1_ComplexDataStructures;
 			sourceTree = "<group>";

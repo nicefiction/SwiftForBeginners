@@ -372,3 +372,40 @@ struct Point {
  we now have an array
  containing all the possible positions where an enemy can be fired at .
  */
+
+let coordinatePoint = Point(x : 0 , y : 0)
+var coordinatePoints = coordinatePoint.points(inRange : 1)
+
+print(coordinatePoints)
+/* prints [
+ 
+    __lldb_expr_16.Point(x: -1, y: -1) ,
+    __lldb_expr_16.Point(x: -1, y: 0) ,
+    __lldb_expr_16.Point(x: -1, y: 1) ,
+    __lldb_expr_16.Point(x: 0, y: -1) ,
+    __lldb_expr_16.Point(x: 0, y: 0) ,
+    __lldb_expr_16.Point(x: 0, y: 1) ,
+    __lldb_expr_16.Point(x: 1, y: -1) ,
+    __lldb_expr_16.Point(x: 1, y: 0) ,
+    __lldb_expr_16.Point(x: 1, y: 1)
+ ]
+ */
+
+for point in coordinatePoints {
+    
+    print("x : \(point.x) , y : \(point.y)")
+}
+
+/* prints
+    x : -1 , y : -1
+    x : -1 , y : 0
+    x : -1 , y : 1
+    x : 0 , y : -1
+    x : 0 , y : 0
+    x : 0 , y : 1
+    x : 1 , y : -1
+    x : 1 , y : 0
+    x : 1 , y : 1
+ */
+
+print("Debug")
