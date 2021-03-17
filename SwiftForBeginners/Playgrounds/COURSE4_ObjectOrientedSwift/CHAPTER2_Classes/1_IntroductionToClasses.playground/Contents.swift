@@ -93,7 +93,7 @@ class Enemy {
 }
 
 /**
- We set the `life` `property` as a `variable property`
+ We set the `life property` as a `variable property`
  rather than a `constant`
  because when a tower fires at a particular enemy ,
  we want the enemy's life property to decrease by a certain value .
