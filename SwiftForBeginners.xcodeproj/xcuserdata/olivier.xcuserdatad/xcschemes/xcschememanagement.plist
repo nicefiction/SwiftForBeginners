@@ -137,6 +137,27 @@
 			<key>orderHint</key>
 			<integer>53</integer>
 		</dict>
+		<key>1_IntroductionToClasses (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>74</integer>
+		</dict>
+		<key>1_IntroductionToClasses (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>75</integer>
+		</dict>
+		<key>1_IntroductionToClasses (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>73</integer>
+		</dict>
 		<key>1_IntroductionToStructs (Playground) 1.xcscheme</key>
 		<dict>
 			<key>isShown</key>
