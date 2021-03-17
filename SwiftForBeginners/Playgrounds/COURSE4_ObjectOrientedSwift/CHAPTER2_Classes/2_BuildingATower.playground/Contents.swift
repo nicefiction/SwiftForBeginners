@@ -82,7 +82,7 @@ class Tower {
  
  `self.position = Point(x : x , y : y)`
  
- We'd like a tower to have a particular firing `range` ,
+ We'd like a tower to have a particular _firing_ `range` ,
  so that we can determine
  whether we can attack an enemy or not :
  
