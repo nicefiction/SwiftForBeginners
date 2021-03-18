@@ -71,7 +71,7 @@ class Enemy {
  Well , thankfully , that is not all `class inheritance` provides ,
  and we can _override_ both `properties` and `methods` on the `superclass`
  to customise `SuperEnemy` .
- It is not however as simple as just adding a new `property` . Here's why ,
+ It is not however as simple as just adding a new `property` . Here is why ,
  when we _sub-class_ a `superclass` to create a new `class` ,
  we are not just creating a new `class`
  and copying the contents of that `base class` into it ,
@@ -84,7 +84,7 @@ class Enemy {
  to assign to its `stored properties` .
  When we create an `instance of SuperEnemy` however ,
  because it is connected to `Enemy` through its `inheritance chain` ,
- we need to make sure that `Enemy's properties`
+ we need to make sure that _Enemy's properties_
  is given some `initial values` as well .
  And this is
  because when we create an `instance of SuperEnemy` ,
@@ -129,7 +129,7 @@ class SuperEnemy: Enemy {
         // STEP 2 : Prepare the properties of the Superclass after .
         super.init(x : x , y : y)
         // STEP 3 : Modify the properties of the Superclass.
-        self.life = 2
+        self.life = 4
     }
 }
 

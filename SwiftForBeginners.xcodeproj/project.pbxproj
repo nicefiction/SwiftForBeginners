@@ -40,6 +40,7 @@
 		095CE15B258BD6FD00F9DC22 /* 1_EnumerationsWithRawValues.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_EnumerationsWithRawValues.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		096712A125FFD7A200E576E0 /* 1_IntroductionToStructs.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_IntroductionToStructs.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		098128F626034585006D68C4 /* 2_OverridingProperties.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2_OverridingProperties.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		098128F826036238006D68C4 /* 3_OverridingMethods.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 3_OverridingMethods.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		098A83E225864390005CA46F /* 4_AssociatedEnums.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 4_AssociatedEnums.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		098A83E5258646DF005CA46F /* 5_MethodsOnEnumerations.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 5_MethodsOnEnumerations.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		098A83ED258652C3005CA46F /* 1_TheAbsenceOfData.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_TheAbsenceOfData.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -132,6 +133,7 @@
 			children = (
 				09064403260217D700EE4E82 /* 1_Inheritance.playground */,
 				098128F626034585006D68C4 /* 2_OverridingProperties.playground */,
+				098128F826036238006D68C4 /* 3_OverridingMethods.playground */,
 			);
 			path = CHAPTER3_ClassInheritance;
 			sourceTree = "<group>";
