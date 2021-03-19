@@ -293,11 +293,8 @@ laserTower.fire(at: superEnemy)
  And because a `SuperEnemy` is an `Enemy`,
  we can use it
  anywhere the `Enemy class` is expected as well .
- */
-
-
-
-/**
+ 
+ 
  Hopefully , this highlights the power of `inheritance` to you .
  You can inherit all the `properties` and `methods` of a `class`
  but you can customise these

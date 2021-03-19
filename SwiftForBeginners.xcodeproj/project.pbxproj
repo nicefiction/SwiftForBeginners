@@ -41,6 +41,7 @@
 		096712A125FFD7A200E576E0 /* 1_IntroductionToStructs.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_IntroductionToStructs.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		098128F626034585006D68C4 /* 2_OverridingProperties.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2_OverridingProperties.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		098128F826036238006D68C4 /* 3_OverridingMethods.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 3_OverridingMethods.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		098128FB26036D76006D68C4 /* 1_StructsVersusClasses.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_StructsVersusClasses.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		098A83E225864390005CA46F /* 4_AssociatedEnums.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 4_AssociatedEnums.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		098A83E5258646DF005CA46F /* 5_MethodsOnEnumerations.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 5_MethodsOnEnumerations.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		098A83ED258652C3005CA46F /* 1_TheAbsenceOfData.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_TheAbsenceOfData.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -194,6 +195,7 @@
 				096712A025FFD77B00E576E0 /* CHAPTER1_ComplexDataStructures */,
 				09B8DCD22600E6E100AA209C /* CHAPTER2_Classes */,
 				09064402260217AB00EE4E82 /* CHAPTER3_ClassInheritance */,
+				098128FA26036D15006D68C4 /* CHAPTER4_DifferentiatingBetweenObjects */,
 			);
 			path = COURSE4_ObjectOrientedSwift;
 			sourceTree = "<group>";
@@ -208,6 +210,14 @@
 				09B8DCD02600E39F00AA209C /* 5_InitializersAndSelf.playground */,
 			);
 			path = CHAPTER1_ComplexDataStructures;
+			sourceTree = "<group>";
+		};
+		098128FA26036D15006D68C4 /* CHAPTER4_DifferentiatingBetweenObjects */ = {
+			isa = PBXGroup;
+			children = (
+				098128FB26036D76006D68C4 /* 1_StructsVersusClasses.playground */,
+			);
+			path = CHAPTER4_DifferentiatingBetweenObjects;
 			sourceTree = "<group>";
 		};
 		098A83EC25865284005CA46F /* CHAPTER2_IntroductionToOptionals */ = {
