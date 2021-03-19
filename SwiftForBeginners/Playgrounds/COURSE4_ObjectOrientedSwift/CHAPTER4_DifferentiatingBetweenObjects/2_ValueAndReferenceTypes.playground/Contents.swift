@@ -12,7 +12,7 @@ import Foundation
  and see how it plays a role in choosing the objects we use .
  */
 /**
- What you saw in the previous video
+ What you have seen in the previous video
  was an example of a `value` type versus a `reference type` : 
  A `value type` is a type,
  whose underlying value is copied
@@ -55,12 +55,13 @@ ozma.fullName // "Ozma"
  it doesn't affect `dorothy` in any way. 
  `Value types` are quite common in Swift.
  All the data types we have worked with so far , in fact ,
- `arrays` ,
- `dictionaries` ,
- `strings` ,
+ `Array` ,
+ `Dictionary` ,
+ `String` ,
  `tuple` ,
- `enums` ,
- and so on , are all `value types` .
+ `enum` ,
+ and so on ,
+ are all `value types` .
  And this means
  that we have to keep in mind
  that they get copied when we assign them to new variables ,
@@ -71,7 +72,7 @@ ozma.fullName // "Ozma"
  is not copied when assigned to a new `variable` or `constant` ,
  or when passed into a `function` .
  Rather than a copy ,
- a reference to the existing instance is used .
+ a `reference` to the `existing instance` is used .
  A `class` is a `reference type` .
  When you assign a `reference type` to another `variable` ,
  we simply assign a `reference` .
@@ -152,7 +153,7 @@ emily.fullName // "Emily Bronte"
  how to build an app that retrieves the latest weather .
  To give this weather ,
  we are going to use the internet
- and make a networking request
+ and make a `networking request`
  and we will have to make a decision
  about whether we should use
  a `struct` as our `network manager`
@@ -171,4 +172,48 @@ emily.fullName // "Emily Bronte"
  The goal of this video is
  to simply introduce you
  to the notion of a `value` vs a `reference type` .
+ */
+
+
+/**
+ `APPENDIX` SWIFT DOCUMENTATION :
+ https://developer.apple.com/swift/blog/?id=10
+ 
+ `The Role of Mutation in Safety`
+ One of the primary reasons to choose `value types` over `reference types` is
+ the ability to more easily reason about your code .
+ If you always get a unique , copied instance ,
+ you can trust that no other part of your app is changing the data under the covers .
+ This is especially helpful in multi-threaded environments
+ where a different thread could alter your data out from under you .
+ This can create nasty bugs that are extremely hard to debug .
+ Because the difference is defined in terms of what happens when you change data ,
+ there is one case where value and reference types overlap :
+ when instances have no writable data .
+ In the absence of mutation , values and references act exactly the same way .
+ 
+ `How to Choose ?`
+ So if you want to build a new type ,
+ how do you decide which kind to make ?
+ When you are working with `Cocoa` ,
+ many `APIs` expect `subclasses` of `NSObject` ,
+ so you have to use a `class` .
+ For the other cases , here are some guidelines :
+ 
+ Use a `value type` when :
+ 
+ `•` Comparing `instance data` with `==` makes sense
+ `•` You want copies to have `independent state`
+ `•` The `data` will be used in code across `multiple threads`
+ 
+ Use a `reference type` ( e.g. use a `class` ) when :
+ 
+ `•` Comparing `instance identity` with `===` makes sense
+ `•` You want to create <shared , mutable state>
+ `•` In Swift , `Array` , `String` , and `Dictionary` are all `value types` .
+ They behave much like a simple int value in C , acting as a <unique instance of that data> .
+ You don’t need to do anything special — such as making an explicit copy —
+ to prevent other code from modifying that data behind your back .
+ Importantly , you can safely <pass copies of values across threads> without synchronization .
+ In the spirit of improving safety , this model will help you write more predictable code in Swift .
  */
