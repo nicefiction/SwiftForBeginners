@@ -85,6 +85,7 @@
 		09D2296325A51A4A00475377 /* 4_Constants.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 4_Constants.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09D2296525A51B0F00475377 /* 5_ConventionsAndRules.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 5_ConventionsAndRules.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09D4A56725D690E1001848EE /* 3_ProtocolOrientedProgramming_Part1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 3_ProtocolOrientedProgramming_Part1.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		09EB6427261262010047923F /* 2_LoopingOverRanges.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2_LoopingOverRanges.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09EBCB0C25861623008C2AEC /* SwiftForBeginners.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftForBeginners.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09EBCB0F25861623008C2AEC /* SwiftForBeginnersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftForBeginnersApp.swift; sourceTree = "<group>"; };
 		09EBCB1125861623008C2AEC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -250,6 +251,7 @@
 			isa = PBXGroup;
 			children = (
 				099BAB8125FE249F00937AE6 /* 1_ForInLoop.playground */,
+				09EB6427261262010047923F /* 2_LoopingOverRanges.playground */,
 			);
 			path = CHAPTER3_ControlFlowWithLoops;
 			sourceTree = "<group>";
