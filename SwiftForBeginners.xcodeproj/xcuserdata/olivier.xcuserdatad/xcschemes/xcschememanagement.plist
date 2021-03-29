@@ -1271,6 +1271,27 @@
 			<key>orderHint</key>
 			<integer>19</integer>
 		</dict>
+		<key>3_RepeatAndRepeatWhile (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>79</integer>
+		</dict>
+		<key>3_RepeatAndRepeatWhile (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>80</integer>
+		</dict>
+		<key>3_RepeatAndRepeatWhile (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>78</integer>
+		</dict>
 		<key>3_ThrowingErrors (Playground) 1.xcscheme</key>
 		<dict>
 			<key>isShown</key>
