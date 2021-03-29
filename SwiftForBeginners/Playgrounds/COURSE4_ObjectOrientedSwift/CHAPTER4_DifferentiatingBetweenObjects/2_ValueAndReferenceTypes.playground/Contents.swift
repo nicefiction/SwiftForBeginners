@@ -112,8 +112,8 @@ class Human {
          age: Int) {
         
         self.fullName = fullName
-        self.email = email
-        self.age = age
+        self.email    = email
+        self.age      = age
     }
 }
 
@@ -173,8 +173,6 @@ emily.fullName // "Emily Bronte"
  to simply introduce you
  to the notion of a `value` vs a `reference type` .
  */
-
-
 /**
  `APPENDIX` SWIFT DOCUMENTATION :
  https://developer.apple.com/swift/blog/?id=10
@@ -184,7 +182,7 @@ emily.fullName // "Emily Bronte"
  the ability to more easily reason about your code .
  If you always get a unique , copied instance ,
  you can trust that no other part of your app is changing the data under the covers .
- This is especially helpful in multi-threaded environments
+ This is especially helpful in `multi-threaded environments`
  where a different thread could alter your data out from under you .
  This can create nasty bugs that are extremely hard to debug .
  Because the difference is defined in terms of what happens when you change data ,
@@ -210,10 +208,14 @@ emily.fullName // "Emily Bronte"
  
  `•` Comparing `instance identity` with `===` makes sense
  `•` You want to create <shared , mutable state>
- `•` In Swift , `Array` , `String` , and `Dictionary` are all `value types` .
- They behave much like a simple int value in C , acting as a <unique instance of that data> .
+ 
+ In Swift , `Array` , `String` , and `Dictionary` are all `value types` .
+ They behave much like a simple `Int value` in `C` ,
+ acting as a <unique instance of that data> .
  You don’t need to do anything special — such as making an explicit copy —
  to prevent other code from modifying that data behind your back .
  Importantly , you can safely <pass copies of values across threads> without synchronization .
  In the spirit of improving safety , this model will help you write more predictable code in Swift .
  */
+
+print("Debug")

@@ -79,8 +79,8 @@ class Human {
          age: Int) {
         
         self.fullName = fullName
-        self.email = email
-        self.age = age
+        self.email    = email
+        self.age      = age
     }
 }
 
