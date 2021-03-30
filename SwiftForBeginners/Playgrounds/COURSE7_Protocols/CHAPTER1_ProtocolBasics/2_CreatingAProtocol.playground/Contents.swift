@@ -14,7 +14,10 @@ import Foundation
  We could simply add the full name , but that doesn't enforce it .
  It is up to me to do that if I want . So instead ,
  let's make the `User` struct conform to the `FullNameable` protocol .
- A protocol can be adopted by a class , struct , or enumeration
+ A protocol can be adopted by a
+ `class` ,
+ `struct` ,
+ or `enumeration`
  and these objects can then define an implementation for the requirements
  that are specified by the protocol . So let's see what this looks like :
  */
@@ -56,12 +59,12 @@ struct User: FullNameAble {
  If a stored property requirement in a protocol
  is defined as both gettable and settable ,
  the property cannot be implemented as a constant .
+ 
  `NOTE` OLIVIER :
  If a stored property requirement in a protocol
  is defined as gettable
  the property can be implemented as both a constant and variable .
- */
-/**
+
  Notice the moment we add this , the error goes away .
  Also take note of the fact that I specified the type here to be `String` .
  Now, what if I change this to an `Integer` ? Again ,
@@ -96,9 +99,10 @@ let dorothy = User(fullName: "Dorothy of Oz")
  
  Protocols can require
  that conforming types have
- specific instance properties ,
- instance methods ,
- type methods , which we don't know about yet , and so on .
+ specific `instance properties` ,
+ `instance methods` ,
+ `type methods` — which we don't know about yet — ,
+ and so on .
  
  Remember ,
  I said that a protocol only describes an implementation
@@ -166,7 +170,7 @@ struct Friend: FullNameAble {
 /**
  `NOTE` OLIVIER :
  `fullName` can be defined here as a computed property
- because the property requirement in the proptocol
+ because the property requirement in the protocol
  has been defined as gettable only ...
  
  `struct User: FullNameAble {`
@@ -199,8 +203,7 @@ glinda.fullName
 /**
  `NOTE OLIVIER` :
  You get an error if you change the `var` keyword of the computed property to a `let` keyword .
- */
-/**
+
  Notice a very important thing here :
  Both `User` and `Friend` conform to the `fullNameAble` protocol
  but they differ in their implementation .

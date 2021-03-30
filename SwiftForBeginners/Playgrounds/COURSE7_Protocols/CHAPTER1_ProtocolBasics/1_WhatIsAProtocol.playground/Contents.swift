@@ -16,9 +16,9 @@ import Foundation
  and how they lead better code reuse .
  
  What you will learn :
- • Protocol Syntax
- • Protocol as Types
- • Protocol Composition
+ `•` Protocol Syntax
+ `• `Protocol as Types
+ `•` Protocol Composition
  */
 
 
@@ -59,7 +59,7 @@ import Foundation
  have the properties and methods that we expect them to have .
  And this is where protocols come in .
  In other languages ,
- protocols are called interfaces .
+ protocols are called _interfaces_ .
  But the concept is the same .
  They define a blueprint of
  methods ,

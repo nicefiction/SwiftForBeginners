@@ -68,7 +68,7 @@ class Employee {
  */
 
 /*
-class HourlyEmployee {
+class HourlyEmployee: Employee {
     
     var hourlyWage: Double = 15.00
     var hoursWorked: Double = 0.00

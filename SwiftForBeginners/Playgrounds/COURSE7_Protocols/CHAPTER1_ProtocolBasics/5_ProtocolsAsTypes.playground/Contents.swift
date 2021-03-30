@@ -90,8 +90,10 @@ class Fruit: BlendAble {
     
     
     init(name: String) {
+        
         self.name = name
     }
+    
     
     func blend() {
         
@@ -159,7 +161,7 @@ func makeSmoothie(with ingredients: [BlendAble]) {
  that the ingredients parameter
  has to be an array
  that contains any type
- that conforms to Blendable .
+ that conforms to BlendAble .
  _So how does this work ?_
  Let's create three instances of foods :
  */
@@ -219,7 +221,9 @@ let blendableIngredients2: [BlendAble] = [
  they satisfy the constraints needed for our function .
  This was a very simple example , of course ,
  and not at all how we would model such an object graph .
- `NOTE` : Now an interesting thing to note here , is ,
+ 
+ `NOTE` :
+ Now an interesting thing to note here , is ,
  that we have specifically annotated the `blendableIngredients` constant
  as having a type of an array of `BlendAble` types :
  
@@ -257,7 +261,7 @@ let blendableIngredients2: [BlendAble] = [
  you’ll see that these ingredients
  are passed through as `BlendAble` types .
  That means that inside the function ,
- we have access to the `blend( )` function ,
+ we have access to the `blend()` function ,
  but we also know that both of these classes
  — both `Dairy` and `Milk` — have a `name` property :
  
@@ -293,6 +297,7 @@ let blendableIngredients2: [BlendAble] = [
          self.name = name
      }
      
+ 
      func blend() {
          
          print("Blend me to mush .")

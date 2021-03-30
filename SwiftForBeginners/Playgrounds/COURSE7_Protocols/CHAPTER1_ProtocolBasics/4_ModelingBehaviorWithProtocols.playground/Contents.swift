@@ -155,6 +155,12 @@ class HourlyEmployee: Employee ,
 class SalariedEmployee: Employee ,
                         PayAble {
     
+    var salary: Double = 25000.00
+    var benefits: Double = 1000.00
+    var deductions: Double = 0.00
+    var vacation: Double = 2.00
+    
+    
     func pay() -> PayCheck {
         
         let monthlySalary = salary / 12
@@ -163,12 +169,6 @@ class SalariedEmployee: Employee ,
                          deductions : deductions ,
                          vacation : vacation )
     }
-    
-    
-    var salary: Double = 25000.00
-    var benefits: Double = 1000.00
-    var deductions: Double = 0.00
-    var vacation: Double = 2.00
 }
 
 /**
@@ -182,7 +182,7 @@ class SalariedEmployee: Employee ,
  Because protocols are fully fledged types
  like a class or struct ,
  we can go and take this one step further .
- We can specify the type of `employee` here , is , `Payable` :
+ We can specify the type of `employee` here , is , `PayAble` :
  */
 
 // func pay(employee: Employee) {
@@ -195,16 +195,16 @@ func pay(employee: PayAble) {
  this guarantees
  that we can only pass in
  an instance of a class
- that conforms to the `Payable` protocol .
+ that conforms to the `PayAble` protocol .
  This can be a bit tricky to understand at first .
  You were saying that the instance passed in
  as an argument to the `pay()` function ,
- needs to conform to the `Payable` protocol .
- The instance can be of type `HourlyEmploye`e ,
+ needs to conform to the `PayAble` protocol .
+ The instance can be of type `HourlyEmployee` ,
  or it can be of type `SalariedEmployee`
- because both of them conform to the `Payable` protocol .
+ because both of them conform to the `PayAble` protocol .
  But it also means that it can be any type that we create in the future
- that conforms to the `Payable` protocol .
+ that conforms to the `PayAble` protocol .
  We don't know anything about these types that are passed in ,
  but because the interface
  the blueprint that is exposed to us
@@ -212,17 +212,17 @@ func pay(employee: PayAble) {
  that is all we care about .
  So all we want to do is
  call the `pay()` method on each `employee` ,
- and the `Payable` protocol exposes that . So ,
+ and the `PayAble` protocol exposes that . So ,
  _what do I mean with exposes that ?_
  If I create an instance of `dorothy`
  of the base class `Employee` ,
  and then call the `pay( )` function on the instance ...
  */
 
-let dorothy = Employee( name : "Dorothy" ,
-                        address : "Oz" ,
-                        startDate : Date() ,
-                        type : .traditional )
+let dorothy = Employee(name : "Dorothy" ,
+                       address : "Oz" ,
+                       startDate : Date() ,
+                       type : .traditional)
 
 // pay(employee : dorothy) // ERROR : Argument type 'Employee' does not conform to expected type 'PayAble' .
  
@@ -238,10 +238,10 @@ let dorothy = Employee( name : "Dorothy" ,
  Now what if we were to change this from `Employee` to `SalariedEmployee` ? :
  */
 
-let glinda = SalariedEmployee( name : "Glinda" ,
-                               address : "Oz" ,
-                               startDate: Date() ,
-                               type : .traditional )
+let glinda = SalariedEmployee(name : "Glinda" ,
+                              address : "Oz" ,
+                              startDate: Date() ,
+                              type : .traditional)
 
 pay(employee : glinda)
 
@@ -284,13 +284,13 @@ pay(employee : glinda)
  
  This means that
  we can only call things
- that are listed in the `Payable` protocol .
+ that are listed in the `PayAble` protocol .
  Now we know that we are passing in a `SalariedEmployee` here :
  
- `let glinda = SalariedEmployee( name : "Glinda" ,`
-                                `address : "Oz" ,`
-                                `startDate: Date() ,`
-                                `type : .traditional )`
+ `let glinda = SalariedEmployee(name : "Glinda" ,`
+                               `address : "Oz" ,`
+                               `startDate: Date() ,`
+                               `type : .traditional)`
  
  And `SalariedEmployee` has a `name` stored property .
  But inside the `pay()` function ,
@@ -313,7 +313,8 @@ func pay2(employee: PayAble) {
  that all you know about this type , is ,
  that it implements the `pay()` method :
  
- `protocol Payable {`
+ `protocol PayAble {`
+ 
     `func pay() -> PayCheck`
  `}`
  

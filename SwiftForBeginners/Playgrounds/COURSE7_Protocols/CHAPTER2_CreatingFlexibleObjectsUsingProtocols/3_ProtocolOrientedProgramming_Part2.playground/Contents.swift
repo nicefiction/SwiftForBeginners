@@ -11,6 +11,35 @@ import Foundation
  the various behaviours of players in our game at different times .
  */
 
+struct Point {
+    
+    var x: Int
+    var y: Int
+    
+    
+    func points(inRange range: Int = 1)
+    -> [Point] {
+        
+        var results: [Point] = []
+        let lowerBoundOfXRange = x - range
+        let upperBoundOfXRange = x + range
+        let lowerBoundOfYRange = y - range
+        let upperBoundOfYRange = y + range
+        
+        for xCoordinate in lowerBoundOfXRange...upperBoundOfXRange {
+            
+            for yCoordinate in lowerBoundOfYRange...upperBoundOfYRange {
+                
+                let coordinatePoint = Point(x : xCoordinate , y : yCoordinate)
+                results.append(coordinatePoint)
+            }
+        }
+        
+        return results
+    }
+}
+
+
 enum Direction {
     
     case up , right , down , left
@@ -37,16 +66,17 @@ protocol CanDoDestruct {
  What properties do they have , and how are they initialised ?
  Let's build a `Player` protocol to model this :
  */
+
 /*
 protocol IsAPlayer {
     
     var position: Point { get set }
     var life: Int { get set }
     
-    init(x: Int ,
-         y: Int)
+    init(x: Int , y: Int)
 }
 */
+
 /**
  Every Player in the game is initialised at a particular point on a map :
  
@@ -135,8 +165,7 @@ protocol CanDoAttack {
      `var position: Point { get set }`
      `var life: Int { get set }`
      
-     `init(x: Int ,`
-          `y: Int)`
+     `init(x: Int , y: Int)`
  `}`
  
  But we need access to that .
@@ -163,8 +192,7 @@ protocol IsAPlayer: CanDoDestruct {
     var position: Point { get set }
     var life: Int { get set }
     
-    init(x: Int ,
-         y: Int)
+    init(x: Int , y: Int)
 }
 
 /**
@@ -188,38 +216,8 @@ protocol IsAPlayer: CanDoDestruct {
  Each type or object should do very little
  and this makes it easier to modify in the future ,
  and easier to get your head wrapped around what each type is doing .
- 
  Okay , so now we have these protocols ,
- let's actually implement them in our types :
- */
-
-struct Point {
-    
-    var x: Int
-    var y: Int
-    
-    
-    func points(inRange range: Int = 1)
-    -> [Point] {
-        
-        var results: [Point] = []
-        let lowerBoundOfXRange = x - range
-        let upperBoundOfXRange = x + range
-        let lowerBoundOfYRange = y - range
-        let upperBoundOfYRange = y + range
-        
-        for xCoordinate in lowerBoundOfXRange...upperBoundOfXRange {
-            for yCoordinate in lowerBoundOfYRange...upperBoundOfYRange {
-                
-                let coordinatePoint = Point(x: xCoordinate, y: yCoordinate)
-                results.append(coordinatePoint)
-            }
-        }
-        return results
-    }
-}
-
-/**
+ let's actually implement them in our types .
  The `Enemy` is first and foremost down here , an `IsAPlayer` .
  So let's conform to the `IsAPlayer` protocol :
  */
@@ -247,7 +245,8 @@ class Enemy: IsAPlayer {
  */
 
 /**
- We are getting a few errors and that is not because of the `IsAPlayer` protocol actually .
+ We are getting a few errors
+ and that is not because of the `IsAPlayer` protocol actually .
  We are already conforming to `IsAPlayer` in every way ,
  because we have the `init()` method , and a `position` ,
  and we have a `life` as modelled by a `IsAPlayer` up here .
@@ -260,6 +259,7 @@ class Enemy: IsAPlayer {
  the initialiser method . Then down in the actual type — `Enemy` — ,
  we need to specify that this is a `required` protocol .
  */
+
 /*
 class Enemy: IsAPlayer {
     
@@ -283,6 +283,7 @@ class Enemy: IsAPlayer {
     }
 }
 */
+
 /**
  And now `Enemy` conforms to the `IsAPlayer` protocol .
  In this way ,
@@ -309,7 +310,7 @@ protocol IsAnAttacker {
 /**
  We can now make `Enemy` conform to the `IsAnAttacker` protocol :
  
- `class Enemy: Player, Attacker { ... }`
+ `class Enemy: Player , Attacker { ... }`
  
  Let’s add the methods and properties required by the `IsAnAttacker` protocol :
  */
@@ -416,11 +417,13 @@ class Enemy: IsAPlayer ,
  we can model this through other small protocols .
  
  Hopefully , this gives you an idea at least of the utility of protocols
- in defining interfaces and creating objects through composition of protocols rather than inheritance .
+ in defining interfaces and creating objects
+ through composition of protocols
+ rather than inheritance .
  You may not be fully convinced , and that is okay ,
  because there is a bit of a learning curve here .
  But a good way to think of this , is , let's say ,
- our game had a `movePlayer( )` function :
+ our game had a `movePlayer()` function :
  
  `func movePlayer(_ player: CanDoMove) { ... }`
  

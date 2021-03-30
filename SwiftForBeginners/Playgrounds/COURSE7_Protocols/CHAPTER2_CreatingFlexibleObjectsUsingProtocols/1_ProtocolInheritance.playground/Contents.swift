@@ -59,14 +59,14 @@ import Foundation
  it makes sense to extract that common behaviour out ,
  and create a specific protocol for it .
  So , in this case ,
- we can create a `Fly` protocol
+ we can create a `FlyAble` protocol
  that both the `Airplane` and `Bird` can conform to :
  */
 
-protocol Fly {}
+protocol FlyAble {}
 
-class Airplane: Fly {}
-class Bird: Fly {}
+class Airplane: FlyAble {}
+class Bird: FlyAble {}
 
 /**
  There is another aspect of protocols that makes them more useful ,
@@ -102,15 +102,15 @@ struct Human: PrintAble {
  During my development process ,
  I'd like to inspect my objects at different points ,
  and I may printout these values of the properties to the console .
- By conforming to `Printable` and implementing a `description()` function ,
+ By conforming to `PrintAble` and implementing a `description()` function ,
  it is far easier for me to get a representation of the object
  rather than individually writing out `print()` statements .
  So now , if we were to create an instance :
  */
  
- let dorothy = Human( name : "Dorothy" ,
-                      address : "Oz" ,
-                      age : 17 )
+let dorothy = Human(name : "Dorothy" ,
+                    address : "Oz" ,
+                    age : 17)
 /**
  When I call the description( ) function on the instance ,
  */

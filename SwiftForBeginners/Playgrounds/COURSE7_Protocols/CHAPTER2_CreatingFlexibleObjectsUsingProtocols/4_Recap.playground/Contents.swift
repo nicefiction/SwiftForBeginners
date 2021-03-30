@@ -35,7 +35,7 @@ import Foundation
  to build successively more complex protocols
  to specify certain attributes or behaviour .
  In doing this we have learned a lot so far ,
- using protocols or interfaces are
+ using protocols — or _interfaces_ — are
  one of the more intermediate features of software development .
  So with this knowledge ,
  you can start building more complex object graphs

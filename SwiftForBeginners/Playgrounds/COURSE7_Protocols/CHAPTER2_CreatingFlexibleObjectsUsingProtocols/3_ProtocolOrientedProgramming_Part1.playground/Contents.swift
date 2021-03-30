@@ -49,13 +49,18 @@ struct Point {
         let lowerBoundOfYRange = y - range
         let upperBoundOfYRange = y + range
         
+        
         for xCoordinate in lowerBoundOfXRange...upperBoundOfXRange {
+            
             for yCoordinate in lowerBoundOfYRange...upperBoundOfYRange {
                 
-                let coordinatePoint = Point(x: xCoordinate, y: yCoordinate)
+                let coordinatePoint = Point(x : xCoordinate ,
+                                            y : yCoordinate)
+                
                 results.append(coordinatePoint)
             }
         }
+        
         return results
     }
 }
@@ -68,11 +73,9 @@ class Enemy {
     let position: Point
     
     
-    init( x: Int ,
-          y: Int ) {
+    init( x: Int , y: Int ) {
         
-        self.position = Point(x : x ,
-                              y : y)
+        self.position = Point(x : x , y : y)
     }
     
     
@@ -91,11 +94,9 @@ class Tower {
     let strength: Int = 1
     
     
-    init(x: Int ,
-         y: Int) {
+    init(x: Int , y: Int) {
         
-        self.position = Point( x : x ,
-                               y : y )
+        self.position = Point( x : x , y : y )
     }
     
     
@@ -105,7 +106,10 @@ class Tower {
         let availablePositions = position.points(inRange : range)
         
         for point in availablePositions {
-            if point.x == enemy.position.x && point.y == enemy.position.y {
+            
+            if point.x == enemy.position.x
+                && point.y == enemy.position.y {
+                
                 return true
             }
         }
