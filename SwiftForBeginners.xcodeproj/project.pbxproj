@@ -55,6 +55,7 @@
 		099BAB8125FE249F00937AE6 /* 1_ForInLoop.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_ForInLoop.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09A3568825D6800E0006EFE0 /* 2_SwiftStandardLibraryProtocols_Part1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2_SwiftStandardLibraryProtocols_Part1.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09A3F780261382C0002C673F /* 2_LogicalOperators.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2_LogicalOperators.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		09A3F78326138A22002C673F /* 3_SwitchStatements.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 3_SwitchStatements.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09A9F10B25D7C40000A34F63 /* 3_ProtocolOrientedProgramming_Part2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 3_ProtocolOrientedProgramming_Part2.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09A9F10F25D7DAC300A34F63 /* 4_Recap.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 4_Recap.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09B1BDCF2604A833001ABDF7 /* 2_ValueAndReferenceTypes.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2_ValueAndReferenceTypes.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -94,7 +95,6 @@
 		09EB6433261272820047923F /* 2_SwiftStandardLibraryProtocols_Part4.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2_SwiftStandardLibraryProtocols_Part4.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09EB64352612729A0047923F /* 2_SwiftStandardLibraryProtocols_Part5.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2_SwiftStandardLibraryProtocols_Part5.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09EB6437261273260047923F /* 2_SwiftStandardLibraryProtocols_Part6.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2_SwiftStandardLibraryProtocols_Part6.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		09EB643A2613165D0047923F /* PRACTICE.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = PRACTICE.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09EBCB0C25861623008C2AEC /* SwiftForBeginners.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftForBeginners.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09EBCB0F25861623008C2AEC /* SwiftForBeginnersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftForBeginnersApp.swift; sourceTree = "<group>"; };
 		09EBCB1125861623008C2AEC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -307,7 +307,6 @@
 		09BB367E25D51F53007CD8A2 /* CHAPTER1_ProtocolBasics */ = {
 			isa = PBXGroup;
 			children = (
-				09EB643A2613165D0047923F /* PRACTICE.playground */,
 				0913620425D51C3200D91F9A /* 1_WhatIsAProtocol.playground */,
 				09BB368225D51FAA007CD8A2 /* 2_CreatingAProtocol.playground */,
 				09BB368425D52B20007CD8A2 /* 3_WhyAreProtocolsUseful.playground */,
@@ -376,6 +375,7 @@
 			children = (
 				09EB642C26126E7B0047923F /* 1_IfStatement.playground */,
 				09A3F780261382C0002C673F /* 2_LogicalOperators.playground */,
+				09A3F78326138A22002C673F /* 3_SwitchStatements.playground */,
 			);
 			path = CHAPTER4_ControlFlowWithConditionalStatements;
 			sourceTree = "<group>";
