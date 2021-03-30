@@ -56,6 +56,7 @@
 		09A3568825D6800E0006EFE0 /* 2_SwiftStandardLibraryProtocols_Part1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2_SwiftStandardLibraryProtocols_Part1.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09A3F780261382C0002C673F /* 2_LogicalOperators.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2_LogicalOperators.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09A3F78326138A22002C673F /* 3_SwitchStatements.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 3_SwitchStatements.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		09A3F78526138D68002C673F /* 4_ThePowerOfSwitching.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 4_ThePowerOfSwitching.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09A9F10B25D7C40000A34F63 /* 3_ProtocolOrientedProgramming_Part2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 3_ProtocolOrientedProgramming_Part2.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09A9F10F25D7DAC300A34F63 /* 4_Recap.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 4_Recap.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		09B1BDCF2604A833001ABDF7 /* 2_ValueAndReferenceTypes.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2_ValueAndReferenceTypes.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -376,6 +377,7 @@
 				09EB642C26126E7B0047923F /* 1_IfStatement.playground */,
 				09A3F780261382C0002C673F /* 2_LogicalOperators.playground */,
 				09A3F78326138A22002C673F /* 3_SwitchStatements.playground */,
+				09A3F78526138D68002C673F /* 4_ThePowerOfSwitching.playground */,
 			);
 			path = CHAPTER4_ControlFlowWithConditionalStatements;
 			sourceTree = "<group>";

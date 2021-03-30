@@ -1880,6 +1880,27 @@
 			<key>orderHint</key>
 			<integer>75</integer>
 		</dict>
+		<key>4_ThePowerOfSwitching (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>89</integer>
+		</dict>
+		<key>4_ThePowerOfSwitching (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>90</integer>
+		</dict>
+		<key>4_ThePowerOfSwitching (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>88</integer>
+		</dict>
 		<key>4_UnaryOperators (Playground) 1.xcscheme</key>
 		<dict>
 			<key>isShown</key>
